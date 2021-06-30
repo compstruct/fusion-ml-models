@@ -1,0 +1,1273 @@
+2021-04-29 22:53:30.379413: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-04-29 22:53:35.053135: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-04-29 22:53:35.257356: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:88:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2021-04-29 22:53:35.260811: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 1 with properties: 
+pciBusID: 0000:89:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2021-04-29 22:53:35.264291: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 2 with properties: 
+pciBusID: 0000:b1:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2021-04-29 22:53:35.267588: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 3 with properties: 
+pciBusID: 0000:b2:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2021-04-29 22:53:35.267644: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-04-29 22:53:35.351546: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-04-29 22:53:35.386918: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-04-29 22:53:35.410953: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-04-29 22:53:35.502050: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-04-29 22:53:35.514883: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-04-29 22:53:35.661097: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-04-29 22:53:35.678020: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0, 1, 2, 3
+2021-04-29 22:53:35.678437: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-04-29 22:53:36.050163: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2100000000 Hz
+2021-04-29 22:53:36.050924: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x579f640 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-04-29 22:53:36.050952: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-04-29 22:53:36.864006: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5833bc0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2021-04-29 22:53:36.864048: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce RTX 2080 Ti, Compute Capability 7.5
+2021-04-29 22:53:36.864056: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (1): GeForce RTX 2080 Ti, Compute Capability 7.5
+2021-04-29 22:53:36.864062: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (2): GeForce RTX 2080 Ti, Compute Capability 7.5
+2021-04-29 22:53:36.864068: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (3): GeForce RTX 2080 Ti, Compute Capability 7.5
+2021-04-29 22:53:36.867016: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:88:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2021-04-29 22:53:36.868991: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 1 with properties: 
+pciBusID: 0000:89:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2021-04-29 22:53:36.870948: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 2 with properties: 
+pciBusID: 0000:b1:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2021-04-29 22:53:36.872902: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 3 with properties: 
+pciBusID: 0000:b2:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2021-04-29 22:53:36.872932: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-04-29 22:53:36.872954: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-04-29 22:53:36.872966: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-04-29 22:53:36.872977: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-04-29 22:53:36.872989: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-04-29 22:53:36.873000: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-04-29 22:53:36.873012: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-04-29 22:53:36.888352: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0, 1, 2, 3
+2021-04-29 22:53:36.888398: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-04-29 22:53:42.959122: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-04-29 22:53:42.959179: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      0 1 2 3 
+2021-04-29 22:53:42.959186: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 0:   N N N N 
+2021-04-29 22:53:42.959190: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 1:   N N N N 
+2021-04-29 22:53:42.959194: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 2:   N N N N 
+2021-04-29 22:53:42.959198: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 3:   N N N N 
+2021-04-29 22:53:42.968713: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10040 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:88:00.0, compute capability: 7.5)
+2021-04-29 22:53:42.971344: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10040 MB memory) -> physical GPU (device: 1, name: GeForce RTX 2080 Ti, pci bus id: 0000:89:00.0, compute capability: 7.5)
+2021-04-29 22:53:42.973695: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 10040 MB memory) -> physical GPU (device: 2, name: GeForce RTX 2080 Ti, pci bus id: 0000:b1:00.0, compute capability: 7.5)
+2021-04-29 22:53:42.977825: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 10040 MB memory) -> physical GPU (device: 3, name: GeForce RTX 2080 Ti, pci bus id: 0000:b2:00.0, compute capability: 7.5)
+Model: "functional_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+input_1 (InputLayer)            [(None, 32, 32, 3)]  0                                            
+__________________________________________________________________________________________________
+conv1 (Conv2D)                  (None, 32, 32, 32)   864         input_1[0][0]                    
+__________________________________________________________________________________________________
+bn1 (BatchNormalization)        (None, 32, 32, 32)   128         conv1[0][0]                      
+__________________________________________________________________________________________________
+rl1 (ReLU)                      (None, 32, 32, 32)   0           bn1[0][0]                        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice (Tens (None, 32, 32, 8)    0           rl1[0][0]                        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_1 (Te (None, 32, 32, 8)    0           rl1[0][0]                        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_2 (Te (None, 32, 32, 8)    0           rl1[0][0]                        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_3 (Te (None, 32, 32, 8)    0           rl1[0][0]                        
+__________________________________________________________________________________________________
+conv2g0 (Conv2D)                (None, 32, 32, 8)    64          tf_op_layer_strided_slice[0][0]  
+__________________________________________________________________________________________________
+conv2g1 (Conv2D)                (None, 32, 32, 8)    64          tf_op_layer_strided_slice_1[0][0]
+__________________________________________________________________________________________________
+conv2g2 (Conv2D)                (None, 32, 32, 8)    64          tf_op_layer_strided_slice_2[0][0]
+__________________________________________________________________________________________________
+conv2g3 (Conv2D)                (None, 32, 32, 8)    64          tf_op_layer_strided_slice_3[0][0]
+__________________________________________________________________________________________________
+conv2groupconc (Concatenate)    (None, 32, 32, 32)   0           conv2g0[0][0]                    
+                                                                 conv2g1[0][0]                    
+                                                                 conv2g2[0][0]                    
+                                                                 conv2g3[0][0]                    
+__________________________________________________________________________________________________
+bn2 (BatchNormalization)        (None, 32, 32, 32)   128         conv2groupconc[0][0]             
+__________________________________________________________________________________________________
+rl2 (ReLU)                      (None, 32, 32, 32)   0           bn2[0][0]                        
+__________________________________________________________________________________________________
+shuff1resh1 (Reshape)           (None, 32, 32, 4, 8) 0           rl2[0][0]                        
+__________________________________________________________________________________________________
+shuff1perm1 (Permute)           (None, 32, 32, 8, 4) 0           shuff1resh1[0][0]                
+__________________________________________________________________________________________________
+shuff1resh2 (Reshape)           (None, 32, 32, 32)   0           shuff1perm1[0][0]                
+__________________________________________________________________________________________________
+conv3 (DepthwiseConv2D)         (None, 32, 32, 32)   288         shuff1resh2[0][0]                
+__________________________________________________________________________________________________
+bn3 (BatchNormalization)        (None, 32, 32, 32)   128         conv3[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_4 (Te (None, 32, 32, 8)    0           bn3[0][0]                        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_5 (Te (None, 32, 32, 8)    0           bn3[0][0]                        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_6 (Te (None, 32, 32, 8)    0           bn3[0][0]                        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_7 (Te (None, 32, 32, 8)    0           bn3[0][0]                        
+__________________________________________________________________________________________________
+b1conv1g0 (Conv2D)              (None, 32, 32, 592)  4736        tf_op_layer_strided_slice_4[0][0]
+__________________________________________________________________________________________________
+b1conv1g1 (Conv2D)              (None, 32, 32, 592)  4736        tf_op_layer_strided_slice_5[0][0]
+__________________________________________________________________________________________________
+b1conv1g2 (Conv2D)              (None, 32, 32, 592)  4736        tf_op_layer_strided_slice_6[0][0]
+__________________________________________________________________________________________________
+b1conv1g3 (Conv2D)              (None, 32, 32, 592)  4736        tf_op_layer_strided_slice_7[0][0]
+__________________________________________________________________________________________________
+b1conv1groupconc (Concatenate)  (None, 32, 32, 2368) 0           b1conv1g0[0][0]                  
+                                                                 b1conv1g1[0][0]                  
+                                                                 b1conv1g2[0][0]                  
+                                                                 b1conv1g3[0][0]                  
+__________________________________________________________________________________________________
+b1bn1 (BatchNormalization)      (None, 32, 32, 2368) 9472        b1conv1groupconc[0][0]           
+__________________________________________________________________________________________________
+b1rl1 (ReLU)                    (None, 32, 32, 2368) 0           b1bn1[0][0]                      
+__________________________________________________________________________________________________
+b1conv2 (DepthwiseConv2D)       (None, 32, 32, 2368) 21312       b1rl1[0][0]                      
+__________________________________________________________________________________________________
+b1bn2 (BatchNormalization)      (None, 32, 32, 2368) 9472        b1conv2[0][0]                    
+__________________________________________________________________________________________________
+b1rl2 (ReLU)                    (None, 32, 32, 2368) 0           b1bn2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_8 (Te (None, 32, 32, 592)  0           b1rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_9 (Te (None, 32, 32, 592)  0           b1rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_10 (T (None, 32, 32, 592)  0           b1rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_11 (T (None, 32, 32, 592)  0           b1rl2[0][0]                      
+__________________________________________________________________________________________________
+b1conv3g0 (Conv2D)              (None, 32, 32, 8)    4736        tf_op_layer_strided_slice_8[0][0]
+__________________________________________________________________________________________________
+b1conv3g1 (Conv2D)              (None, 32, 32, 8)    4736        tf_op_layer_strided_slice_9[0][0]
+__________________________________________________________________________________________________
+b1conv3g2 (Conv2D)              (None, 32, 32, 8)    4736        tf_op_layer_strided_slice_10[0][0
+__________________________________________________________________________________________________
+b1conv3g3 (Conv2D)              (None, 32, 32, 8)    4736        tf_op_layer_strided_slice_11[0][0
+__________________________________________________________________________________________________
+b1conv3groupconc (Concatenate)  (None, 32, 32, 32)   0           b1conv3g0[0][0]                  
+                                                                 b1conv3g1[0][0]                  
+                                                                 b1conv3g2[0][0]                  
+                                                                 b1conv3g3[0][0]                  
+__________________________________________________________________________________________________
+b1bn3 (BatchNormalization)      (None, 32, 32, 32)   128         b1conv3groupconc[0][0]           
+__________________________________________________________________________________________________
+b1shuff1resh1 (Reshape)         (None, 32, 32, 4, 8) 0           b1bn3[0][0]                      
+__________________________________________________________________________________________________
+b1shuff1perm1 (Permute)         (None, 32, 32, 8, 4) 0           b1shuff1resh1[0][0]              
+__________________________________________________________________________________________________
+b1shuff1resh2 (Reshape)         (None, 32, 32, 32)   0           b1shuff1perm1[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_12 (T (None, 32, 32, 8)    0           b1shuff1resh2[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_13 (T (None, 32, 32, 8)    0           b1shuff1resh2[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_14 (T (None, 32, 32, 8)    0           b1shuff1resh2[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_15 (T (None, 32, 32, 8)    0           b1shuff1resh2[0][0]              
+__________________________________________________________________________________________________
+b2conv1g0 (Conv2D)              (None, 32, 32, 592)  4736        tf_op_layer_strided_slice_12[0][0
+__________________________________________________________________________________________________
+b2conv1g1 (Conv2D)              (None, 32, 32, 592)  4736        tf_op_layer_strided_slice_13[0][0
+__________________________________________________________________________________________________
+b2conv1g2 (Conv2D)              (None, 32, 32, 592)  4736        tf_op_layer_strided_slice_14[0][0
+__________________________________________________________________________________________________
+b2conv1g3 (Conv2D)              (None, 32, 32, 592)  4736        tf_op_layer_strided_slice_15[0][0
+__________________________________________________________________________________________________
+b2conv1groupconc (Concatenate)  (None, 32, 32, 2368) 0           b2conv1g0[0][0]                  
+                                                                 b2conv1g1[0][0]                  
+                                                                 b2conv1g2[0][0]                  
+                                                                 b2conv1g3[0][0]                  
+__________________________________________________________________________________________________
+b2bn1 (BatchNormalization)      (None, 32, 32, 2368) 9472        b2conv1groupconc[0][0]           
+__________________________________________________________________________________________________
+b2rl1 (ReLU)                    (None, 32, 32, 2368) 0           b2bn1[0][0]                      
+__________________________________________________________________________________________________
+b2conv2 (DepthwiseConv2D)       (None, 32, 32, 2368) 21312       b2rl1[0][0]                      
+__________________________________________________________________________________________________
+b2bn2 (BatchNormalization)      (None, 32, 32, 2368) 9472        b2conv2[0][0]                    
+__________________________________________________________________________________________________
+b2rl2 (ReLU)                    (None, 32, 32, 2368) 0           b2bn2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_16 (T (None, 32, 32, 592)  0           b2rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_17 (T (None, 32, 32, 592)  0           b2rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_18 (T (None, 32, 32, 592)  0           b2rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_19 (T (None, 32, 32, 592)  0           b2rl2[0][0]                      
+__________________________________________________________________________________________________
+b2conv3g0 (Conv2D)              (None, 32, 32, 8)    4736        tf_op_layer_strided_slice_16[0][0
+__________________________________________________________________________________________________
+b2conv3g1 (Conv2D)              (None, 32, 32, 8)    4736        tf_op_layer_strided_slice_17[0][0
+__________________________________________________________________________________________________
+b2conv3g2 (Conv2D)              (None, 32, 32, 8)    4736        tf_op_layer_strided_slice_18[0][0
+__________________________________________________________________________________________________
+b2conv3g3 (Conv2D)              (None, 32, 32, 8)    4736        tf_op_layer_strided_slice_19[0][0
+__________________________________________________________________________________________________
+b2conv3groupconc (Concatenate)  (None, 32, 32, 32)   0           b2conv3g0[0][0]                  
+                                                                 b2conv3g1[0][0]                  
+                                                                 b2conv3g2[0][0]                  
+                                                                 b2conv3g3[0][0]                  
+__________________________________________________________________________________________________
+b2bn3 (BatchNormalization)      (None, 32, 32, 32)   128         b2conv3groupconc[0][0]           
+__________________________________________________________________________________________________
+b2shuff1resh1 (Reshape)         (None, 32, 32, 4, 8) 0           b2bn3[0][0]                      
+__________________________________________________________________________________________________
+b2shuff1perm1 (Permute)         (None, 32, 32, 8, 4) 0           b2shuff1resh1[0][0]              
+__________________________________________________________________________________________________
+b2shuff1resh2 (Reshape)         (None, 32, 32, 32)   0           b2shuff1perm1[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_b2add1 (TensorFlowO (None, 32, 32, 32)   0           b2shuff1resh2[0][0]              
+                                                                 b1shuff1resh2[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_20 (T (None, 32, 32, 8)    0           tf_op_layer_b2add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_21 (T (None, 32, 32, 8)    0           tf_op_layer_b2add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_22 (T (None, 32, 32, 8)    0           tf_op_layer_b2add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_23 (T (None, 32, 32, 8)    0           tf_op_layer_b2add1[0][0]         
+__________________________________________________________________________________________________
+b3conv1g0 (Conv2D)              (None, 32, 32, 592)  4736        tf_op_layer_strided_slice_20[0][0
+__________________________________________________________________________________________________
+b3conv1g1 (Conv2D)              (None, 32, 32, 592)  4736        tf_op_layer_strided_slice_21[0][0
+__________________________________________________________________________________________________
+b3conv1g2 (Conv2D)              (None, 32, 32, 592)  4736        tf_op_layer_strided_slice_22[0][0
+__________________________________________________________________________________________________
+b3conv1g3 (Conv2D)              (None, 32, 32, 592)  4736        tf_op_layer_strided_slice_23[0][0
+__________________________________________________________________________________________________
+b3conv1groupconc (Concatenate)  (None, 32, 32, 2368) 0           b3conv1g0[0][0]                  
+                                                                 b3conv1g1[0][0]                  
+                                                                 b3conv1g2[0][0]                  
+                                                                 b3conv1g3[0][0]                  
+__________________________________________________________________________________________________
+b3bn1 (BatchNormalization)      (None, 32, 32, 2368) 9472        b3conv1groupconc[0][0]           
+__________________________________________________________________________________________________
+b3rl1 (ReLU)                    (None, 32, 32, 2368) 0           b3bn1[0][0]                      
+__________________________________________________________________________________________________
+b3conv2 (DepthwiseConv2D)       (None, 32, 32, 2368) 21312       b3rl1[0][0]                      
+__________________________________________________________________________________________________
+b3bn2 (BatchNormalization)      (None, 32, 32, 2368) 9472        b3conv2[0][0]                    
+__________________________________________________________________________________________________
+b3rl2 (ReLU)                    (None, 32, 32, 2368) 0           b3bn2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_24 (T (None, 32, 32, 592)  0           b3rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_25 (T (None, 32, 32, 592)  0           b3rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_26 (T (None, 32, 32, 592)  0           b3rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_27 (T (None, 32, 32, 592)  0           b3rl2[0][0]                      
+__________________________________________________________________________________________________
+b3conv3g0 (Conv2D)              (None, 32, 32, 8)    4736        tf_op_layer_strided_slice_24[0][0
+__________________________________________________________________________________________________
+b3conv3g1 (Conv2D)              (None, 32, 32, 8)    4736        tf_op_layer_strided_slice_25[0][0
+__________________________________________________________________________________________________
+b3conv3g2 (Conv2D)              (None, 32, 32, 8)    4736        tf_op_layer_strided_slice_26[0][0
+__________________________________________________________________________________________________
+b3conv3g3 (Conv2D)              (None, 32, 32, 8)    4736        tf_op_layer_strided_slice_27[0][0
+__________________________________________________________________________________________________
+b3conv3groupconc (Concatenate)  (None, 32, 32, 32)   0           b3conv3g0[0][0]                  
+                                                                 b3conv3g1[0][0]                  
+                                                                 b3conv3g2[0][0]                  
+                                                                 b3conv3g3[0][0]                  
+__________________________________________________________________________________________________
+b3bn3 (BatchNormalization)      (None, 32, 32, 32)   128         b3conv3groupconc[0][0]           
+__________________________________________________________________________________________________
+b3shuff1resh1 (Reshape)         (None, 32, 32, 4, 8) 0           b3bn3[0][0]                      
+__________________________________________________________________________________________________
+b3shuff1perm1 (Permute)         (None, 32, 32, 8, 4) 0           b3shuff1resh1[0][0]              
+__________________________________________________________________________________________________
+b3shuff1resh2 (Reshape)         (None, 32, 32, 32)   0           b3shuff1perm1[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_b3add1 (TensorFlowO (None, 32, 32, 32)   0           b3shuff1resh2[0][0]              
+                                                                 tf_op_layer_b2add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_28 (T (None, 32, 32, 8)    0           tf_op_layer_b3add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_29 (T (None, 32, 32, 8)    0           tf_op_layer_b3add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_30 (T (None, 32, 32, 8)    0           tf_op_layer_b3add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_31 (T (None, 32, 32, 8)    0           tf_op_layer_b3add1[0][0]         
+__________________________________________________________________________________________________
+b4conv1g0 (Conv2D)              (None, 32, 32, 592)  4736        tf_op_layer_strided_slice_28[0][0
+__________________________________________________________________________________________________
+b4conv1g1 (Conv2D)              (None, 32, 32, 592)  4736        tf_op_layer_strided_slice_29[0][0
+__________________________________________________________________________________________________
+b4conv1g2 (Conv2D)              (None, 32, 32, 592)  4736        tf_op_layer_strided_slice_30[0][0
+__________________________________________________________________________________________________
+b4conv1g3 (Conv2D)              (None, 32, 32, 592)  4736        tf_op_layer_strided_slice_31[0][0
+__________________________________________________________________________________________________
+b4conv1groupconc (Concatenate)  (None, 32, 32, 2368) 0           b4conv1g0[0][0]                  
+                                                                 b4conv1g1[0][0]                  
+                                                                 b4conv1g2[0][0]                  
+                                                                 b4conv1g3[0][0]                  
+__________________________________________________________________________________________________
+b4bn1 (BatchNormalization)      (None, 32, 32, 2368) 9472        b4conv1groupconc[0][0]           
+__________________________________________________________________________________________________
+b4rl1 (ReLU)                    (None, 32, 32, 2368) 0           b4bn1[0][0]                      
+__________________________________________________________________________________________________
+b4conv2 (DepthwiseConv2D)       (None, 16, 16, 2368) 21312       b4rl1[0][0]                      
+__________________________________________________________________________________________________
+b4bn2 (BatchNormalization)      (None, 16, 16, 2368) 9472        b4conv2[0][0]                    
+__________________________________________________________________________________________________
+b4rl2 (ReLU)                    (None, 16, 16, 2368) 0           b4bn2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_32 (T (None, 16, 16, 592)  0           b4rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_33 (T (None, 16, 16, 592)  0           b4rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_34 (T (None, 16, 16, 592)  0           b4rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_35 (T (None, 16, 16, 592)  0           b4rl2[0][0]                      
+__________________________________________________________________________________________________
+b4conv3g0 (Conv2D)              (None, 16, 16, 16)   9472        tf_op_layer_strided_slice_32[0][0
+__________________________________________________________________________________________________
+b4conv3g1 (Conv2D)              (None, 16, 16, 16)   9472        tf_op_layer_strided_slice_33[0][0
+__________________________________________________________________________________________________
+b4conv3g2 (Conv2D)              (None, 16, 16, 16)   9472        tf_op_layer_strided_slice_34[0][0
+__________________________________________________________________________________________________
+b4conv3g3 (Conv2D)              (None, 16, 16, 16)   9472        tf_op_layer_strided_slice_35[0][0
+__________________________________________________________________________________________________
+b4conv3groupconc (Concatenate)  (None, 16, 16, 64)   0           b4conv3g0[0][0]                  
+                                                                 b4conv3g1[0][0]                  
+                                                                 b4conv3g2[0][0]                  
+                                                                 b4conv3g3[0][0]                  
+__________________________________________________________________________________________________
+b4bn3 (BatchNormalization)      (None, 16, 16, 64)   256         b4conv3groupconc[0][0]           
+__________________________________________________________________________________________________
+b4shuff1resh1 (Reshape)         (None, 16, 16, 4, 16 0           b4bn3[0][0]                      
+__________________________________________________________________________________________________
+b4shuff1perm1 (Permute)         (None, 16, 16, 16, 4 0           b4shuff1resh1[0][0]              
+__________________________________________________________________________________________________
+b4shuff1resh2 (Reshape)         (None, 16, 16, 64)   0           b4shuff1perm1[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_36 (T (None, 16, 16, 16)   0           b4shuff1resh2[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_37 (T (None, 16, 16, 16)   0           b4shuff1resh2[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_38 (T (None, 16, 16, 16)   0           b4shuff1resh2[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_39 (T (None, 16, 16, 16)   0           b4shuff1resh2[0][0]              
+__________________________________________________________________________________________________
+b5conv1g0 (Conv2D)              (None, 16, 16, 592)  9472        tf_op_layer_strided_slice_36[0][0
+__________________________________________________________________________________________________
+b5conv1g1 (Conv2D)              (None, 16, 16, 592)  9472        tf_op_layer_strided_slice_37[0][0
+__________________________________________________________________________________________________
+b5conv1g2 (Conv2D)              (None, 16, 16, 592)  9472        tf_op_layer_strided_slice_38[0][0
+__________________________________________________________________________________________________
+b5conv1g3 (Conv2D)              (None, 16, 16, 592)  9472        tf_op_layer_strided_slice_39[0][0
+__________________________________________________________________________________________________
+b5conv1groupconc (Concatenate)  (None, 16, 16, 2368) 0           b5conv1g0[0][0]                  
+                                                                 b5conv1g1[0][0]                  
+                                                                 b5conv1g2[0][0]                  
+                                                                 b5conv1g3[0][0]                  
+__________________________________________________________________________________________________
+b5bn1 (BatchNormalization)      (None, 16, 16, 2368) 9472        b5conv1groupconc[0][0]           
+__________________________________________________________________________________________________
+b5rl1 (ReLU)                    (None, 16, 16, 2368) 0           b5bn1[0][0]                      
+__________________________________________________________________________________________________
+b5conv2 (DepthwiseConv2D)       (None, 16, 16, 2368) 21312       b5rl1[0][0]                      
+__________________________________________________________________________________________________
+b5bn2 (BatchNormalization)      (None, 16, 16, 2368) 9472        b5conv2[0][0]                    
+__________________________________________________________________________________________________
+b5rl2 (ReLU)                    (None, 16, 16, 2368) 0           b5bn2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_40 (T (None, 16, 16, 592)  0           b5rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_41 (T (None, 16, 16, 592)  0           b5rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_42 (T (None, 16, 16, 592)  0           b5rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_43 (T (None, 16, 16, 592)  0           b5rl2[0][0]                      
+__________________________________________________________________________________________________
+b5conv3g0 (Conv2D)              (None, 16, 16, 16)   9472        tf_op_layer_strided_slice_40[0][0
+__________________________________________________________________________________________________
+b5conv3g1 (Conv2D)              (None, 16, 16, 16)   9472        tf_op_layer_strided_slice_41[0][0
+__________________________________________________________________________________________________
+b5conv3g2 (Conv2D)              (None, 16, 16, 16)   9472        tf_op_layer_strided_slice_42[0][0
+__________________________________________________________________________________________________
+b5conv3g3 (Conv2D)              (None, 16, 16, 16)   9472        tf_op_layer_strided_slice_43[0][0
+__________________________________________________________________________________________________
+b5conv3groupconc (Concatenate)  (None, 16, 16, 64)   0           b5conv3g0[0][0]                  
+                                                                 b5conv3g1[0][0]                  
+                                                                 b5conv3g2[0][0]                  
+                                                                 b5conv3g3[0][0]                  
+__________________________________________________________________________________________________
+b5bn3 (BatchNormalization)      (None, 16, 16, 64)   256         b5conv3groupconc[0][0]           
+__________________________________________________________________________________________________
+b5shuff1resh1 (Reshape)         (None, 16, 16, 4, 16 0           b5bn3[0][0]                      
+__________________________________________________________________________________________________
+b5shuff1perm1 (Permute)         (None, 16, 16, 16, 4 0           b5shuff1resh1[0][0]              
+__________________________________________________________________________________________________
+b5shuff1resh2 (Reshape)         (None, 16, 16, 64)   0           b5shuff1perm1[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_b5add1 (TensorFlowO (None, 16, 16, 64)   0           b5shuff1resh2[0][0]              
+                                                                 b4shuff1resh2[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_44 (T (None, 16, 16, 16)   0           tf_op_layer_b5add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_45 (T (None, 16, 16, 16)   0           tf_op_layer_b5add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_46 (T (None, 16, 16, 16)   0           tf_op_layer_b5add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_47 (T (None, 16, 16, 16)   0           tf_op_layer_b5add1[0][0]         
+__________________________________________________________________________________________________
+b6conv1g0 (Conv2D)              (None, 16, 16, 592)  9472        tf_op_layer_strided_slice_44[0][0
+__________________________________________________________________________________________________
+b6conv1g1 (Conv2D)              (None, 16, 16, 592)  9472        tf_op_layer_strided_slice_45[0][0
+__________________________________________________________________________________________________
+b6conv1g2 (Conv2D)              (None, 16, 16, 592)  9472        tf_op_layer_strided_slice_46[0][0
+__________________________________________________________________________________________________
+b6conv1g3 (Conv2D)              (None, 16, 16, 592)  9472        tf_op_layer_strided_slice_47[0][0
+__________________________________________________________________________________________________
+b6conv1groupconc (Concatenate)  (None, 16, 16, 2368) 0           b6conv1g0[0][0]                  
+                                                                 b6conv1g1[0][0]                  
+                                                                 b6conv1g2[0][0]                  
+                                                                 b6conv1g3[0][0]                  
+__________________________________________________________________________________________________
+b6bn1 (BatchNormalization)      (None, 16, 16, 2368) 9472        b6conv1groupconc[0][0]           
+__________________________________________________________________________________________________
+b6rl1 (ReLU)                    (None, 16, 16, 2368) 0           b6bn1[0][0]                      
+__________________________________________________________________________________________________
+b6conv2 (DepthwiseConv2D)       (None, 16, 16, 2368) 21312       b6rl1[0][0]                      
+__________________________________________________________________________________________________
+b6bn2 (BatchNormalization)      (None, 16, 16, 2368) 9472        b6conv2[0][0]                    
+__________________________________________________________________________________________________
+b6rl2 (ReLU)                    (None, 16, 16, 2368) 0           b6bn2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_48 (T (None, 16, 16, 592)  0           b6rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_49 (T (None, 16, 16, 592)  0           b6rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_50 (T (None, 16, 16, 592)  0           b6rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_51 (T (None, 16, 16, 592)  0           b6rl2[0][0]                      
+__________________________________________________________________________________________________
+b6conv3g0 (Conv2D)              (None, 16, 16, 16)   9472        tf_op_layer_strided_slice_48[0][0
+__________________________________________________________________________________________________
+b6conv3g1 (Conv2D)              (None, 16, 16, 16)   9472        tf_op_layer_strided_slice_49[0][0
+__________________________________________________________________________________________________
+b6conv3g2 (Conv2D)              (None, 16, 16, 16)   9472        tf_op_layer_strided_slice_50[0][0
+__________________________________________________________________________________________________
+b6conv3g3 (Conv2D)              (None, 16, 16, 16)   9472        tf_op_layer_strided_slice_51[0][0
+__________________________________________________________________________________________________
+b6conv3groupconc (Concatenate)  (None, 16, 16, 64)   0           b6conv3g0[0][0]                  
+                                                                 b6conv3g1[0][0]                  
+                                                                 b6conv3g2[0][0]                  
+                                                                 b6conv3g3[0][0]                  
+__________________________________________________________________________________________________
+b6bn3 (BatchNormalization)      (None, 16, 16, 64)   256         b6conv3groupconc[0][0]           
+__________________________________________________________________________________________________
+b6shuff1resh1 (Reshape)         (None, 16, 16, 4, 16 0           b6bn3[0][0]                      
+__________________________________________________________________________________________________
+b6shuff1perm1 (Permute)         (None, 16, 16, 16, 4 0           b6shuff1resh1[0][0]              
+__________________________________________________________________________________________________
+b6shuff1resh2 (Reshape)         (None, 16, 16, 64)   0           b6shuff1perm1[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_b6add1 (TensorFlowO (None, 16, 16, 64)   0           b6shuff1resh2[0][0]              
+                                                                 tf_op_layer_b5add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_52 (T (None, 16, 16, 16)   0           tf_op_layer_b6add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_53 (T (None, 16, 16, 16)   0           tf_op_layer_b6add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_54 (T (None, 16, 16, 16)   0           tf_op_layer_b6add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_55 (T (None, 16, 16, 16)   0           tf_op_layer_b6add1[0][0]         
+__________________________________________________________________________________________________
+b7conv1g0 (Conv2D)              (None, 16, 16, 592)  9472        tf_op_layer_strided_slice_52[0][0
+__________________________________________________________________________________________________
+b7conv1g1 (Conv2D)              (None, 16, 16, 592)  9472        tf_op_layer_strided_slice_53[0][0
+__________________________________________________________________________________________________
+b7conv1g2 (Conv2D)              (None, 16, 16, 592)  9472        tf_op_layer_strided_slice_54[0][0
+__________________________________________________________________________________________________
+b7conv1g3 (Conv2D)              (None, 16, 16, 592)  9472        tf_op_layer_strided_slice_55[0][0
+__________________________________________________________________________________________________
+b7conv1groupconc (Concatenate)  (None, 16, 16, 2368) 0           b7conv1g0[0][0]                  
+                                                                 b7conv1g1[0][0]                  
+                                                                 b7conv1g2[0][0]                  
+                                                                 b7conv1g3[0][0]                  
+__________________________________________________________________________________________________
+b7bn1 (BatchNormalization)      (None, 16, 16, 2368) 9472        b7conv1groupconc[0][0]           
+__________________________________________________________________________________________________
+b7rl1 (ReLU)                    (None, 16, 16, 2368) 0           b7bn1[0][0]                      
+__________________________________________________________________________________________________
+b7conv2 (DepthwiseConv2D)       (None, 16, 16, 2368) 21312       b7rl1[0][0]                      
+__________________________________________________________________________________________________
+b7bn2 (BatchNormalization)      (None, 16, 16, 2368) 9472        b7conv2[0][0]                    
+__________________________________________________________________________________________________
+b7rl2 (ReLU)                    (None, 16, 16, 2368) 0           b7bn2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_56 (T (None, 16, 16, 592)  0           b7rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_57 (T (None, 16, 16, 592)  0           b7rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_58 (T (None, 16, 16, 592)  0           b7rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_59 (T (None, 16, 16, 592)  0           b7rl2[0][0]                      
+__________________________________________________________________________________________________
+b7conv3g0 (Conv2D)              (None, 16, 16, 16)   9472        tf_op_layer_strided_slice_56[0][0
+__________________________________________________________________________________________________
+b7conv3g1 (Conv2D)              (None, 16, 16, 16)   9472        tf_op_layer_strided_slice_57[0][0
+__________________________________________________________________________________________________
+b7conv3g2 (Conv2D)              (None, 16, 16, 16)   9472        tf_op_layer_strided_slice_58[0][0
+__________________________________________________________________________________________________
+b7conv3g3 (Conv2D)              (None, 16, 16, 16)   9472        tf_op_layer_strided_slice_59[0][0
+__________________________________________________________________________________________________
+b7conv3groupconc (Concatenate)  (None, 16, 16, 64)   0           b7conv3g0[0][0]                  
+                                                                 b7conv3g1[0][0]                  
+                                                                 b7conv3g2[0][0]                  
+                                                                 b7conv3g3[0][0]                  
+__________________________________________________________________________________________________
+b7bn3 (BatchNormalization)      (None, 16, 16, 64)   256         b7conv3groupconc[0][0]           
+__________________________________________________________________________________________________
+b7shuff1resh1 (Reshape)         (None, 16, 16, 4, 16 0           b7bn3[0][0]                      
+__________________________________________________________________________________________________
+b7shuff1perm1 (Permute)         (None, 16, 16, 16, 4 0           b7shuff1resh1[0][0]              
+__________________________________________________________________________________________________
+b7shuff1resh2 (Reshape)         (None, 16, 16, 64)   0           b7shuff1perm1[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_b7add1 (TensorFlowO (None, 16, 16, 64)   0           b7shuff1resh2[0][0]              
+                                                                 tf_op_layer_b6add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_60 (T (None, 16, 16, 16)   0           tf_op_layer_b7add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_61 (T (None, 16, 16, 16)   0           tf_op_layer_b7add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_62 (T (None, 16, 16, 16)   0           tf_op_layer_b7add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_63 (T (None, 16, 16, 16)   0           tf_op_layer_b7add1[0][0]         
+__________________________________________________________________________________________________
+b8conv1g0 (Conv2D)              (None, 16, 16, 592)  9472        tf_op_layer_strided_slice_60[0][0
+__________________________________________________________________________________________________
+b8conv1g1 (Conv2D)              (None, 16, 16, 592)  9472        tf_op_layer_strided_slice_61[0][0
+__________________________________________________________________________________________________
+b8conv1g2 (Conv2D)              (None, 16, 16, 592)  9472        tf_op_layer_strided_slice_62[0][0
+__________________________________________________________________________________________________
+b8conv1g3 (Conv2D)              (None, 16, 16, 592)  9472        tf_op_layer_strided_slice_63[0][0
+__________________________________________________________________________________________________
+b8conv1groupconc (Concatenate)  (None, 16, 16, 2368) 0           b8conv1g0[0][0]                  
+                                                                 b8conv1g1[0][0]                  
+                                                                 b8conv1g2[0][0]                  
+                                                                 b8conv1g3[0][0]                  
+__________________________________________________________________________________________________
+b8bn1 (BatchNormalization)      (None, 16, 16, 2368) 9472        b8conv1groupconc[0][0]           
+__________________________________________________________________________________________________
+b8rl1 (ReLU)                    (None, 16, 16, 2368) 0           b8bn1[0][0]                      
+__________________________________________________________________________________________________
+b8conv2 (DepthwiseConv2D)       (None, 8, 8, 2368)   21312       b8rl1[0][0]                      
+__________________________________________________________________________________________________
+b8bn2 (BatchNormalization)      (None, 8, 8, 2368)   9472        b8conv2[0][0]                    
+__________________________________________________________________________________________________
+b8rl2 (ReLU)                    (None, 8, 8, 2368)   0           b8bn2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_64 (T (None, 8, 8, 592)    0           b8rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_65 (T (None, 8, 8, 592)    0           b8rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_66 (T (None, 8, 8, 592)    0           b8rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_67 (T (None, 8, 8, 592)    0           b8rl2[0][0]                      
+__________________________________________________________________________________________________
+b8conv3g0 (Conv2D)              (None, 8, 8, 24)     14208       tf_op_layer_strided_slice_64[0][0
+__________________________________________________________________________________________________
+b8conv3g1 (Conv2D)              (None, 8, 8, 24)     14208       tf_op_layer_strided_slice_65[0][0
+__________________________________________________________________________________________________
+b8conv3g2 (Conv2D)              (None, 8, 8, 24)     14208       tf_op_layer_strided_slice_66[0][0
+__________________________________________________________________________________________________
+b8conv3g3 (Conv2D)              (None, 8, 8, 24)     14208       tf_op_layer_strided_slice_67[0][0
+__________________________________________________________________________________________________
+b8conv3groupconc (Concatenate)  (None, 8, 8, 96)     0           b8conv3g0[0][0]                  
+                                                                 b8conv3g1[0][0]                  
+                                                                 b8conv3g2[0][0]                  
+                                                                 b8conv3g3[0][0]                  
+__________________________________________________________________________________________________
+b8bn3 (BatchNormalization)      (None, 8, 8, 96)     384         b8conv3groupconc[0][0]           
+__________________________________________________________________________________________________
+b8shuff1resh1 (Reshape)         (None, 8, 8, 4, 24)  0           b8bn3[0][0]                      
+__________________________________________________________________________________________________
+b8shuff1perm1 (Permute)         (None, 8, 8, 24, 4)  0           b8shuff1resh1[0][0]              
+__________________________________________________________________________________________________
+b8shuff1resh2 (Reshape)         (None, 8, 8, 96)     0           b8shuff1perm1[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_68 (T (None, 8, 8, 24)     0           b8shuff1resh2[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_69 (T (None, 8, 8, 24)     0           b8shuff1resh2[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_70 (T (None, 8, 8, 24)     0           b8shuff1resh2[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_71 (T (None, 8, 8, 24)     0           b8shuff1resh2[0][0]              
+__________________________________________________________________________________________________
+b9conv1g0 (Conv2D)              (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_68[0][0
+__________________________________________________________________________________________________
+b9conv1g1 (Conv2D)              (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_69[0][0
+__________________________________________________________________________________________________
+b9conv1g2 (Conv2D)              (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_70[0][0
+__________________________________________________________________________________________________
+b9conv1g3 (Conv2D)              (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_71[0][0
+__________________________________________________________________________________________________
+b9conv1groupconc (Concatenate)  (None, 8, 8, 3456)   0           b9conv1g0[0][0]                  
+                                                                 b9conv1g1[0][0]                  
+                                                                 b9conv1g2[0][0]                  
+                                                                 b9conv1g3[0][0]                  
+__________________________________________________________________________________________________
+b9bn1 (BatchNormalization)      (None, 8, 8, 3456)   13824       b9conv1groupconc[0][0]           
+__________________________________________________________________________________________________
+b9rl1 (ReLU)                    (None, 8, 8, 3456)   0           b9bn1[0][0]                      
+__________________________________________________________________________________________________
+b9conv2 (DepthwiseConv2D)       (None, 8, 8, 3456)   31104       b9rl1[0][0]                      
+__________________________________________________________________________________________________
+b9bn2 (BatchNormalization)      (None, 8, 8, 3456)   13824       b9conv2[0][0]                    
+__________________________________________________________________________________________________
+b9rl2 (ReLU)                    (None, 8, 8, 3456)   0           b9bn2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_72 (T (None, 8, 8, 864)    0           b9rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_73 (T (None, 8, 8, 864)    0           b9rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_74 (T (None, 8, 8, 864)    0           b9rl2[0][0]                      
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_75 (T (None, 8, 8, 864)    0           b9rl2[0][0]                      
+__________________________________________________________________________________________________
+b9conv3g0 (Conv2D)              (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_72[0][0
+__________________________________________________________________________________________________
+b9conv3g1 (Conv2D)              (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_73[0][0
+__________________________________________________________________________________________________
+b9conv3g2 (Conv2D)              (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_74[0][0
+__________________________________________________________________________________________________
+b9conv3g3 (Conv2D)              (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_75[0][0
+__________________________________________________________________________________________________
+b9conv3groupconc (Concatenate)  (None, 8, 8, 96)     0           b9conv3g0[0][0]                  
+                                                                 b9conv3g1[0][0]                  
+                                                                 b9conv3g2[0][0]                  
+                                                                 b9conv3g3[0][0]                  
+__________________________________________________________________________________________________
+b9bn3 (BatchNormalization)      (None, 8, 8, 96)     384         b9conv3groupconc[0][0]           
+__________________________________________________________________________________________________
+b9shuff1resh1 (Reshape)         (None, 8, 8, 4, 24)  0           b9bn3[0][0]                      
+__________________________________________________________________________________________________
+b9shuff1perm1 (Permute)         (None, 8, 8, 24, 4)  0           b9shuff1resh1[0][0]              
+__________________________________________________________________________________________________
+b9shuff1resh2 (Reshape)         (None, 8, 8, 96)     0           b9shuff1perm1[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_b9add1 (TensorFlowO (None, 8, 8, 96)     0           b9shuff1resh2[0][0]              
+                                                                 b8shuff1resh2[0][0]              
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_76 (T (None, 8, 8, 24)     0           tf_op_layer_b9add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_77 (T (None, 8, 8, 24)     0           tf_op_layer_b9add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_78 (T (None, 8, 8, 24)     0           tf_op_layer_b9add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_79 (T (None, 8, 8, 24)     0           tf_op_layer_b9add1[0][0]         
+__________________________________________________________________________________________________
+b10conv1g0 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_76[0][0
+__________________________________________________________________________________________________
+b10conv1g1 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_77[0][0
+__________________________________________________________________________________________________
+b10conv1g2 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_78[0][0
+__________________________________________________________________________________________________
+b10conv1g3 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_79[0][0
+__________________________________________________________________________________________________
+b10conv1groupconc (Concatenate) (None, 8, 8, 3456)   0           b10conv1g0[0][0]                 
+                                                                 b10conv1g1[0][0]                 
+                                                                 b10conv1g2[0][0]                 
+                                                                 b10conv1g3[0][0]                 
+__________________________________________________________________________________________________
+b10bn1 (BatchNormalization)     (None, 8, 8, 3456)   13824       b10conv1groupconc[0][0]          
+__________________________________________________________________________________________________
+b10rl1 (ReLU)                   (None, 8, 8, 3456)   0           b10bn1[0][0]                     
+__________________________________________________________________________________________________
+b10conv2 (DepthwiseConv2D)      (None, 8, 8, 3456)   31104       b10rl1[0][0]                     
+__________________________________________________________________________________________________
+b10bn2 (BatchNormalization)     (None, 8, 8, 3456)   13824       b10conv2[0][0]                   
+__________________________________________________________________________________________________
+b10rl2 (ReLU)                   (None, 8, 8, 3456)   0           b10bn2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_80 (T (None, 8, 8, 864)    0           b10rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_81 (T (None, 8, 8, 864)    0           b10rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_82 (T (None, 8, 8, 864)    0           b10rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_83 (T (None, 8, 8, 864)    0           b10rl2[0][0]                     
+__________________________________________________________________________________________________
+b10conv3g0 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_80[0][0
+__________________________________________________________________________________________________
+b10conv3g1 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_81[0][0
+__________________________________________________________________________________________________
+b10conv3g2 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_82[0][0
+__________________________________________________________________________________________________
+b10conv3g3 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_83[0][0
+__________________________________________________________________________________________________
+b10conv3groupconc (Concatenate) (None, 8, 8, 96)     0           b10conv3g0[0][0]                 
+                                                                 b10conv3g1[0][0]                 
+                                                                 b10conv3g2[0][0]                 
+                                                                 b10conv3g3[0][0]                 
+__________________________________________________________________________________________________
+b10bn3 (BatchNormalization)     (None, 8, 8, 96)     384         b10conv3groupconc[0][0]          
+__________________________________________________________________________________________________
+b10shuff1resh1 (Reshape)        (None, 8, 8, 4, 24)  0           b10bn3[0][0]                     
+__________________________________________________________________________________________________
+b10shuff1perm1 (Permute)        (None, 8, 8, 24, 4)  0           b10shuff1resh1[0][0]             
+__________________________________________________________________________________________________
+b10shuff1resh2 (Reshape)        (None, 8, 8, 96)     0           b10shuff1perm1[0][0]             
+__________________________________________________________________________________________________
+tf_op_layer_b10add1 (TensorFlow (None, 8, 8, 96)     0           b10shuff1resh2[0][0]             
+                                                                 tf_op_layer_b9add1[0][0]         
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_84 (T (None, 8, 8, 24)     0           tf_op_layer_b10add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_85 (T (None, 8, 8, 24)     0           tf_op_layer_b10add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_86 (T (None, 8, 8, 24)     0           tf_op_layer_b10add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_87 (T (None, 8, 8, 24)     0           tf_op_layer_b10add1[0][0]        
+__________________________________________________________________________________________________
+b11conv1g0 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_84[0][0
+__________________________________________________________________________________________________
+b11conv1g1 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_85[0][0
+__________________________________________________________________________________________________
+b11conv1g2 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_86[0][0
+__________________________________________________________________________________________________
+b11conv1g3 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_87[0][0
+__________________________________________________________________________________________________
+b11conv1groupconc (Concatenate) (None, 8, 8, 3456)   0           b11conv1g0[0][0]                 
+                                                                 b11conv1g1[0][0]                 
+                                                                 b11conv1g2[0][0]                 
+                                                                 b11conv1g3[0][0]                 
+__________________________________________________________________________________________________
+b11bn1 (BatchNormalization)     (None, 8, 8, 3456)   13824       b11conv1groupconc[0][0]          
+__________________________________________________________________________________________________
+b11rl1 (ReLU)                   (None, 8, 8, 3456)   0           b11bn1[0][0]                     
+__________________________________________________________________________________________________
+b11conv2 (DepthwiseConv2D)      (None, 8, 8, 3456)   31104       b11rl1[0][0]                     
+__________________________________________________________________________________________________
+b11bn2 (BatchNormalization)     (None, 8, 8, 3456)   13824       b11conv2[0][0]                   
+__________________________________________________________________________________________________
+b11rl2 (ReLU)                   (None, 8, 8, 3456)   0           b11bn2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_88 (T (None, 8, 8, 864)    0           b11rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_89 (T (None, 8, 8, 864)    0           b11rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_90 (T (None, 8, 8, 864)    0           b11rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_91 (T (None, 8, 8, 864)    0           b11rl2[0][0]                     
+__________________________________________________________________________________________________
+b11conv3g0 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_88[0][0
+__________________________________________________________________________________________________
+b11conv3g1 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_89[0][0
+__________________________________________________________________________________________________
+b11conv3g2 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_90[0][0
+__________________________________________________________________________________________________
+b11conv3g3 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_91[0][0
+__________________________________________________________________________________________________
+b11conv3groupconc (Concatenate) (None, 8, 8, 96)     0           b11conv3g0[0][0]                 
+                                                                 b11conv3g1[0][0]                 
+                                                                 b11conv3g2[0][0]                 
+                                                                 b11conv3g3[0][0]                 
+__________________________________________________________________________________________________
+b11bn3 (BatchNormalization)     (None, 8, 8, 96)     384         b11conv3groupconc[0][0]          
+__________________________________________________________________________________________________
+b11shuff1resh1 (Reshape)        (None, 8, 8, 4, 24)  0           b11bn3[0][0]                     
+__________________________________________________________________________________________________
+b11shuff1perm1 (Permute)        (None, 8, 8, 24, 4)  0           b11shuff1resh1[0][0]             
+__________________________________________________________________________________________________
+b11shuff1resh2 (Reshape)        (None, 8, 8, 96)     0           b11shuff1perm1[0][0]             
+__________________________________________________________________________________________________
+tf_op_layer_b11add1 (TensorFlow (None, 8, 8, 96)     0           b11shuff1resh2[0][0]             
+                                                                 tf_op_layer_b10add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_92 (T (None, 8, 8, 24)     0           tf_op_layer_b11add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_93 (T (None, 8, 8, 24)     0           tf_op_layer_b11add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_94 (T (None, 8, 8, 24)     0           tf_op_layer_b11add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_95 (T (None, 8, 8, 24)     0           tf_op_layer_b11add1[0][0]        
+__________________________________________________________________________________________________
+b12conv1g0 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_92[0][0
+__________________________________________________________________________________________________
+b12conv1g1 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_93[0][0
+__________________________________________________________________________________________________
+b12conv1g2 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_94[0][0
+__________________________________________________________________________________________________
+b12conv1g3 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_95[0][0
+__________________________________________________________________________________________________
+b12conv1groupconc (Concatenate) (None, 8, 8, 3456)   0           b12conv1g0[0][0]                 
+                                                                 b12conv1g1[0][0]                 
+                                                                 b12conv1g2[0][0]                 
+                                                                 b12conv1g3[0][0]                 
+__________________________________________________________________________________________________
+b12bn1 (BatchNormalization)     (None, 8, 8, 3456)   13824       b12conv1groupconc[0][0]          
+__________________________________________________________________________________________________
+b12rl1 (ReLU)                   (None, 8, 8, 3456)   0           b12bn1[0][0]                     
+__________________________________________________________________________________________________
+b12conv2 (DepthwiseConv2D)      (None, 8, 8, 3456)   31104       b12rl1[0][0]                     
+__________________________________________________________________________________________________
+b12bn2 (BatchNormalization)     (None, 8, 8, 3456)   13824       b12conv2[0][0]                   
+__________________________________________________________________________________________________
+b12rl2 (ReLU)                   (None, 8, 8, 3456)   0           b12bn2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_96 (T (None, 8, 8, 864)    0           b12rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_97 (T (None, 8, 8, 864)    0           b12rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_98 (T (None, 8, 8, 864)    0           b12rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_99 (T (None, 8, 8, 864)    0           b12rl2[0][0]                     
+__________________________________________________________________________________________________
+b12conv3g0 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_96[0][0
+__________________________________________________________________________________________________
+b12conv3g1 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_97[0][0
+__________________________________________________________________________________________________
+b12conv3g2 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_98[0][0
+__________________________________________________________________________________________________
+b12conv3g3 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_99[0][0
+__________________________________________________________________________________________________
+b12conv3groupconc (Concatenate) (None, 8, 8, 96)     0           b12conv3g0[0][0]                 
+                                                                 b12conv3g1[0][0]                 
+                                                                 b12conv3g2[0][0]                 
+                                                                 b12conv3g3[0][0]                 
+__________________________________________________________________________________________________
+b12bn3 (BatchNormalization)     (None, 8, 8, 96)     384         b12conv3groupconc[0][0]          
+__________________________________________________________________________________________________
+b12shuff1resh1 (Reshape)        (None, 8, 8, 4, 24)  0           b12bn3[0][0]                     
+__________________________________________________________________________________________________
+b12shuff1perm1 (Permute)        (None, 8, 8, 24, 4)  0           b12shuff1resh1[0][0]             
+__________________________________________________________________________________________________
+b12shuff1resh2 (Reshape)        (None, 8, 8, 96)     0           b12shuff1perm1[0][0]             
+__________________________________________________________________________________________________
+tf_op_layer_b12add1 (TensorFlow (None, 8, 8, 96)     0           b12shuff1resh2[0][0]             
+                                                                 tf_op_layer_b11add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_100 ( (None, 8, 8, 24)     0           tf_op_layer_b12add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_101 ( (None, 8, 8, 24)     0           tf_op_layer_b12add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_102 ( (None, 8, 8, 24)     0           tf_op_layer_b12add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_103 ( (None, 8, 8, 24)     0           tf_op_layer_b12add1[0][0]        
+__________________________________________________________________________________________________
+b13conv1g0 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_100[0][
+__________________________________________________________________________________________________
+b13conv1g1 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_101[0][
+__________________________________________________________________________________________________
+b13conv1g2 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_102[0][
+__________________________________________________________________________________________________
+b13conv1g3 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_103[0][
+__________________________________________________________________________________________________
+b13conv1groupconc (Concatenate) (None, 8, 8, 3456)   0           b13conv1g0[0][0]                 
+                                                                 b13conv1g1[0][0]                 
+                                                                 b13conv1g2[0][0]                 
+                                                                 b13conv1g3[0][0]                 
+__________________________________________________________________________________________________
+b13bn1 (BatchNormalization)     (None, 8, 8, 3456)   13824       b13conv1groupconc[0][0]          
+__________________________________________________________________________________________________
+b13rl1 (ReLU)                   (None, 8, 8, 3456)   0           b13bn1[0][0]                     
+__________________________________________________________________________________________________
+b13conv2 (DepthwiseConv2D)      (None, 8, 8, 3456)   31104       b13rl1[0][0]                     
+__________________________________________________________________________________________________
+b13bn2 (BatchNormalization)     (None, 8, 8, 3456)   13824       b13conv2[0][0]                   
+__________________________________________________________________________________________________
+b13rl2 (ReLU)                   (None, 8, 8, 3456)   0           b13bn2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_104 ( (None, 8, 8, 864)    0           b13rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_105 ( (None, 8, 8, 864)    0           b13rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_106 ( (None, 8, 8, 864)    0           b13rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_107 ( (None, 8, 8, 864)    0           b13rl2[0][0]                     
+__________________________________________________________________________________________________
+b13conv3g0 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_104[0][
+__________________________________________________________________________________________________
+b13conv3g1 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_105[0][
+__________________________________________________________________________________________________
+b13conv3g2 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_106[0][
+__________________________________________________________________________________________________
+b13conv3g3 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_107[0][
+__________________________________________________________________________________________________
+b13conv3groupconc (Concatenate) (None, 8, 8, 96)     0           b13conv3g0[0][0]                 
+                                                                 b13conv3g1[0][0]                 
+                                                                 b13conv3g2[0][0]                 
+                                                                 b13conv3g3[0][0]                 
+__________________________________________________________________________________________________
+b13bn3 (BatchNormalization)     (None, 8, 8, 96)     384         b13conv3groupconc[0][0]          
+__________________________________________________________________________________________________
+b13shuff1resh1 (Reshape)        (None, 8, 8, 4, 24)  0           b13bn3[0][0]                     
+__________________________________________________________________________________________________
+b13shuff1perm1 (Permute)        (None, 8, 8, 24, 4)  0           b13shuff1resh1[0][0]             
+__________________________________________________________________________________________________
+b13shuff1resh2 (Reshape)        (None, 8, 8, 96)     0           b13shuff1perm1[0][0]             
+__________________________________________________________________________________________________
+tf_op_layer_b13add1 (TensorFlow (None, 8, 8, 96)     0           b13shuff1resh2[0][0]             
+                                                                 tf_op_layer_b12add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_108 ( (None, 8, 8, 24)     0           tf_op_layer_b13add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_109 ( (None, 8, 8, 24)     0           tf_op_layer_b13add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_110 ( (None, 8, 8, 24)     0           tf_op_layer_b13add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_111 ( (None, 8, 8, 24)     0           tf_op_layer_b13add1[0][0]        
+__________________________________________________________________________________________________
+b14conv1g0 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_108[0][
+__________________________________________________________________________________________________
+b14conv1g1 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_109[0][
+__________________________________________________________________________________________________
+b14conv1g2 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_110[0][
+__________________________________________________________________________________________________
+b14conv1g3 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_111[0][
+__________________________________________________________________________________________________
+b14conv1groupconc (Concatenate) (None, 8, 8, 3456)   0           b14conv1g0[0][0]                 
+                                                                 b14conv1g1[0][0]                 
+                                                                 b14conv1g2[0][0]                 
+                                                                 b14conv1g3[0][0]                 
+__________________________________________________________________________________________________
+b14bn1 (BatchNormalization)     (None, 8, 8, 3456)   13824       b14conv1groupconc[0][0]          
+__________________________________________________________________________________________________
+b14rl1 (ReLU)                   (None, 8, 8, 3456)   0           b14bn1[0][0]                     
+__________________________________________________________________________________________________
+b14conv2 (DepthwiseConv2D)      (None, 8, 8, 3456)   31104       b14rl1[0][0]                     
+__________________________________________________________________________________________________
+b14bn2 (BatchNormalization)     (None, 8, 8, 3456)   13824       b14conv2[0][0]                   
+__________________________________________________________________________________________________
+b14rl2 (ReLU)                   (None, 8, 8, 3456)   0           b14bn2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_112 ( (None, 8, 8, 864)    0           b14rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_113 ( (None, 8, 8, 864)    0           b14rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_114 ( (None, 8, 8, 864)    0           b14rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_115 ( (None, 8, 8, 864)    0           b14rl2[0][0]                     
+__________________________________________________________________________________________________
+b14conv3g0 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_112[0][
+__________________________________________________________________________________________________
+b14conv3g1 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_113[0][
+__________________________________________________________________________________________________
+b14conv3g2 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_114[0][
+__________________________________________________________________________________________________
+b14conv3g3 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_115[0][
+__________________________________________________________________________________________________
+b14conv3groupconc (Concatenate) (None, 8, 8, 96)     0           b14conv3g0[0][0]                 
+                                                                 b14conv3g1[0][0]                 
+                                                                 b14conv3g2[0][0]                 
+                                                                 b14conv3g3[0][0]                 
+__________________________________________________________________________________________________
+b14bn3 (BatchNormalization)     (None, 8, 8, 96)     384         b14conv3groupconc[0][0]          
+__________________________________________________________________________________________________
+b14shuff1resh1 (Reshape)        (None, 8, 8, 4, 24)  0           b14bn3[0][0]                     
+__________________________________________________________________________________________________
+b14shuff1perm1 (Permute)        (None, 8, 8, 24, 4)  0           b14shuff1resh1[0][0]             
+__________________________________________________________________________________________________
+b14shuff1resh2 (Reshape)        (None, 8, 8, 96)     0           b14shuff1perm1[0][0]             
+__________________________________________________________________________________________________
+tf_op_layer_b14add1 (TensorFlow (None, 8, 8, 96)     0           b14shuff1resh2[0][0]             
+                                                                 tf_op_layer_b13add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_116 ( (None, 8, 8, 24)     0           tf_op_layer_b14add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_117 ( (None, 8, 8, 24)     0           tf_op_layer_b14add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_118 ( (None, 8, 8, 24)     0           tf_op_layer_b14add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_119 ( (None, 8, 8, 24)     0           tf_op_layer_b14add1[0][0]        
+__________________________________________________________________________________________________
+b15conv1g0 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_116[0][
+__________________________________________________________________________________________________
+b15conv1g1 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_117[0][
+__________________________________________________________________________________________________
+b15conv1g2 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_118[0][
+__________________________________________________________________________________________________
+b15conv1g3 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_119[0][
+__________________________________________________________________________________________________
+b15conv1groupconc (Concatenate) (None, 8, 8, 3456)   0           b15conv1g0[0][0]                 
+                                                                 b15conv1g1[0][0]                 
+                                                                 b15conv1g2[0][0]                 
+                                                                 b15conv1g3[0][0]                 
+__________________________________________________________________________________________________
+b15bn1 (BatchNormalization)     (None, 8, 8, 3456)   13824       b15conv1groupconc[0][0]          
+__________________________________________________________________________________________________
+b15rl1 (ReLU)                   (None, 8, 8, 3456)   0           b15bn1[0][0]                     
+__________________________________________________________________________________________________
+b15conv2 (DepthwiseConv2D)      (None, 8, 8, 3456)   31104       b15rl1[0][0]                     
+__________________________________________________________________________________________________
+b15bn2 (BatchNormalization)     (None, 8, 8, 3456)   13824       b15conv2[0][0]                   
+__________________________________________________________________________________________________
+b15rl2 (ReLU)                   (None, 8, 8, 3456)   0           b15bn2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_120 ( (None, 8, 8, 864)    0           b15rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_121 ( (None, 8, 8, 864)    0           b15rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_122 ( (None, 8, 8, 864)    0           b15rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_123 ( (None, 8, 8, 864)    0           b15rl2[0][0]                     
+__________________________________________________________________________________________________
+b15conv3g0 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_120[0][
+__________________________________________________________________________________________________
+b15conv3g1 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_121[0][
+__________________________________________________________________________________________________
+b15conv3g2 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_122[0][
+__________________________________________________________________________________________________
+b15conv3g3 (Conv2D)             (None, 8, 8, 24)     20736       tf_op_layer_strided_slice_123[0][
+__________________________________________________________________________________________________
+b15conv3groupconc (Concatenate) (None, 8, 8, 96)     0           b15conv3g0[0][0]                 
+                                                                 b15conv3g1[0][0]                 
+                                                                 b15conv3g2[0][0]                 
+                                                                 b15conv3g3[0][0]                 
+__________________________________________________________________________________________________
+b15bn3 (BatchNormalization)     (None, 8, 8, 96)     384         b15conv3groupconc[0][0]          
+__________________________________________________________________________________________________
+b15shuff1resh1 (Reshape)        (None, 8, 8, 4, 24)  0           b15bn3[0][0]                     
+__________________________________________________________________________________________________
+b15shuff1perm1 (Permute)        (None, 8, 8, 24, 4)  0           b15shuff1resh1[0][0]             
+__________________________________________________________________________________________________
+b15shuff1resh2 (Reshape)        (None, 8, 8, 96)     0           b15shuff1perm1[0][0]             
+__________________________________________________________________________________________________
+tf_op_layer_b15add1 (TensorFlow (None, 8, 8, 96)     0           b15shuff1resh2[0][0]             
+                                                                 tf_op_layer_b14add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_124 ( (None, 8, 8, 24)     0           tf_op_layer_b15add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_125 ( (None, 8, 8, 24)     0           tf_op_layer_b15add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_126 ( (None, 8, 8, 24)     0           tf_op_layer_b15add1[0][0]        
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_127 ( (None, 8, 8, 24)     0           tf_op_layer_b15add1[0][0]        
+__________________________________________________________________________________________________
+b16conv1g0 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_124[0][
+__________________________________________________________________________________________________
+b16conv1g1 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_125[0][
+__________________________________________________________________________________________________
+b16conv1g2 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_126[0][
+__________________________________________________________________________________________________
+b16conv1g3 (Conv2D)             (None, 8, 8, 864)    20736       tf_op_layer_strided_slice_127[0][
+__________________________________________________________________________________________________
+b16conv1groupconc (Concatenate) (None, 8, 8, 3456)   0           b16conv1g0[0][0]                 
+                                                                 b16conv1g1[0][0]                 
+                                                                 b16conv1g2[0][0]                 
+                                                                 b16conv1g3[0][0]                 
+__________________________________________________________________________________________________
+b16bn1 (BatchNormalization)     (None, 8, 8, 3456)   13824       b16conv1groupconc[0][0]          
+__________________________________________________________________________________________________
+b16rl1 (ReLU)                   (None, 8, 8, 3456)   0           b16bn1[0][0]                     
+__________________________________________________________________________________________________
+b16conv2 (DepthwiseConv2D)      (None, 8, 8, 3456)   31104       b16rl1[0][0]                     
+__________________________________________________________________________________________________
+b16bn2 (BatchNormalization)     (None, 8, 8, 3456)   13824       b16conv2[0][0]                   
+__________________________________________________________________________________________________
+b16rl2 (ReLU)                   (None, 8, 8, 3456)   0           b16bn2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_128 ( (None, 8, 8, 864)    0           b16rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_129 ( (None, 8, 8, 864)    0           b16rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_130 ( (None, 8, 8, 864)    0           b16rl2[0][0]                     
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice_131 ( (None, 8, 8, 864)    0           b16rl2[0][0]                     
+__________________________________________________________________________________________________
+b16conv3g0 (Conv2D)             (None, 8, 8, 40)     34560       tf_op_layer_strided_slice_128[0][
+__________________________________________________________________________________________________
+b16conv3g1 (Conv2D)             (None, 8, 8, 40)     34560       tf_op_layer_strided_slice_129[0][
+__________________________________________________________________________________________________
+b16conv3g2 (Conv2D)             (None, 8, 8, 40)     34560       tf_op_layer_strided_slice_130[0][
+__________________________________________________________________________________________________
+b16conv3g3 (Conv2D)             (None, 8, 8, 40)     34560       tf_op_layer_strided_slice_131[0][
+__________________________________________________________________________________________________
+b16conv3groupconc (Concatenate) (None, 8, 8, 160)    0           b16conv3g0[0][0]                 
+                                                                 b16conv3g1[0][0]                 
+                                                                 b16conv3g2[0][0]                 
+                                                                 b16conv3g3[0][0]                 
+__________________________________________________________________________________________________
+b16bn3 (BatchNormalization)     (None, 8, 8, 160)    640         b16conv3groupconc[0][0]          
+__________________________________________________________________________________________________
+b16shuff1resh1 (Reshape)        (None, 8, 8, 4, 40)  0           b16bn3[0][0]                     
+__________________________________________________________________________________________________
+b16shuff1perm1 (Permute)        (None, 8, 8, 40, 4)  0           b16shuff1resh1[0][0]             
+__________________________________________________________________________________________________
+b16shuff1resh2 (Reshape)        (None, 8, 8, 160)    0           b16shuff1perm1[0][0]             
+__________________________________________________________________________________________________
+conv4 (Conv2D)                  (None, 8, 8, 1280)   204800      b16shuff1resh2[0][0]             
+__________________________________________________________________________________________________
+bn4 (BatchNormalization)        (None, 8, 8, 1280)   5120        conv4[0][0]                      
+__________________________________________________________________________________________________
+rl3 (ReLU)                      (None, 8, 8, 1280)   0           bn4[0][0]                        
+__________________________________________________________________________________________________
+ave_pool (GlobalAveragePooling2 (None, 1280)         0           rl3[0][0]                        
+__________________________________________________________________________________________________
+dense1 (Dense)                  (None, 100)          128100      ave_pool[0][0]                   
+==================================================================================================
+Total params: 3,011,940
+Trainable params: 2,820,260
+Non-trainable params: 191,680
+__________________________________________________________________________________________________
+conv_0 : 1.0
+conv_1 : 1.0
+conv_2 : 1.0
+conv_3 : 1.0
+conv_4 : 1.0
+dwise_0 : 1.0
+conv_5 : 0.19995777027027026
+conv_6 : 0.19995777027027026
+conv_7 : 0.19995777027027026
+conv_8 : 0.19995777027027026
+dwise_1 : 0.30001876876876876
+conv_9 : 0.19995777027027026
+conv_10 : 0.19995777027027026
+conv_11 : 0.19995777027027026
+conv_12 : 0.19995777027027026
+conv_13 : 0.19995777027027026
+conv_14 : 0.19995777027027026
+conv_15 : 0.19995777027027026
+conv_16 : 0.19995777027027026
+dwise_2 : 0.30001876876876876
+conv_17 : 0.19995777027027026
+conv_18 : 0.19995777027027026
+conv_19 : 0.19995777027027026
+conv_20 : 0.19995777027027026
+conv_21 : 0.19995777027027026
+conv_22 : 0.19995777027027026
+conv_23 : 0.19995777027027026
+conv_24 : 0.19995777027027026
+dwise_3 : 0.30001876876876876
+conv_25 : 0.19995777027027026
+conv_26 : 0.19995777027027026
+conv_27 : 0.19995777027027026
+conv_28 : 0.19995777027027026
+conv_29 : 0.19995777027027026
+conv_30 : 0.19995777027027026
+conv_31 : 0.19995777027027026
+conv_32 : 0.19995777027027026
+dwise_4 : 0.30001876876876876
+conv_33 : 0.2000633445945946
+conv_34 : 0.2000633445945946
+conv_35 : 0.2000633445945946
+conv_36 : 0.2000633445945946
+conv_37 : 0.2000633445945946
+conv_38 : 0.2000633445945946
+conv_39 : 0.2000633445945946
+conv_40 : 0.2000633445945946
+dwise_5 : 0.30001876876876876
+conv_41 : 0.2000633445945946
+conv_42 : 0.2000633445945946
+conv_43 : 0.2000633445945946
+conv_44 : 0.2000633445945946
+conv_45 : 0.2000633445945946
+conv_46 : 0.2000633445945946
+conv_47 : 0.2000633445945946
+conv_48 : 0.2000633445945946
+dwise_6 : 0.30001876876876876
+conv_49 : 0.2000633445945946
+conv_50 : 0.2000633445945946
+conv_51 : 0.2000633445945946
+conv_52 : 0.2000633445945946
+conv_53 : 0.2000633445945946
+conv_54 : 0.2000633445945946
+conv_55 : 0.2000633445945946
+conv_56 : 0.2000633445945946
+dwise_7 : 0.30001876876876876
+conv_57 : 0.2000633445945946
+conv_58 : 0.2000633445945946
+conv_59 : 0.2000633445945946
+conv_60 : 0.2000633445945946
+conv_61 : 0.2000633445945946
+conv_62 : 0.2000633445945946
+conv_63 : 0.2000633445945946
+conv_64 : 0.2000633445945946
+dwise_8 : 0.30001876876876876
+conv_65 : 0.20002815315315314
+conv_66 : 0.20002815315315314
+conv_67 : 0.20002815315315314
+conv_68 : 0.20002815315315314
+conv_69 : 0.20003858024691357
+conv_70 : 0.20003858024691357
+conv_71 : 0.20003858024691357
+conv_72 : 0.20003858024691357
+dwise_9 : 0.30002572016460904
+conv_73 : 0.20003858024691357
+conv_74 : 0.20003858024691357
+conv_75 : 0.20003858024691357
+conv_76 : 0.20003858024691357
+conv_77 : 0.20003858024691357
+conv_78 : 0.20003858024691357
+conv_79 : 0.20003858024691357
+conv_80 : 0.20003858024691357
+dwise_10 : 0.30002572016460904
+conv_81 : 0.20003858024691357
+conv_82 : 0.20003858024691357
+conv_83 : 0.20003858024691357
+conv_84 : 0.20003858024691357
+conv_85 : 0.20003858024691357
+conv_86 : 0.20003858024691357
+conv_87 : 0.20003858024691357
+conv_88 : 0.20003858024691357
+dwise_11 : 0.30002572016460904
+conv_89 : 0.20003858024691357
+conv_90 : 0.20003858024691357
+conv_91 : 0.20003858024691357
+conv_92 : 0.20003858024691357
+conv_93 : 0.20003858024691357
+conv_94 : 0.20003858024691357
+conv_95 : 0.20003858024691357
+conv_96 : 0.20003858024691357
+dwise_12 : 0.30002572016460904
+conv_97 : 0.20003858024691357
+conv_98 : 0.20003858024691357
+conv_99 : 0.20003858024691357
+conv_100 : 0.20003858024691357
+conv_101 : 0.20003858024691357
+conv_102 : 0.20003858024691357
+conv_103 : 0.20003858024691357
+conv_104 : 0.20003858024691357
+dwise_13 : 0.30002572016460904
+conv_105 : 0.20003858024691357
+conv_106 : 0.20003858024691357
+conv_107 : 0.20003858024691357
+conv_108 : 0.20003858024691357
+conv_109 : 0.20003858024691357
+conv_110 : 0.20003858024691357
+conv_111 : 0.20003858024691357
+conv_112 : 0.20003858024691357
+dwise_14 : 0.30002572016460904
+conv_113 : 0.20003858024691357
+conv_114 : 0.20003858024691357
+conv_115 : 0.20003858024691357
+conv_116 : 0.20003858024691357
+conv_117 : 0.20003858024691357
+conv_118 : 0.20003858024691357
+conv_119 : 0.20003858024691357
+conv_120 : 0.20003858024691357
+dwise_15 : 0.30002572016460904
+conv_121 : 0.20003858024691357
+conv_122 : 0.20003858024691357
+conv_123 : 0.20003858024691357
+conv_124 : 0.20003858024691357
+conv_125 : 0.20003858024691357
+conv_126 : 0.20003858024691357
+conv_127 : 0.20003858024691357
+conv_128 : 0.20003858024691357
+dwise_16 : 0.30002572016460904
+conv_129 : 0.2000289351851852
+conv_130 : 0.2000289351851852
+conv_131 : 0.2000289351851852
+conv_132 : 0.2000289351851852
+conv_133 : 0.2000146484375
+dense_0 weight : 1.0
+dense_0bias : 1.0
