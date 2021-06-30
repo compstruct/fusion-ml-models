@@ -1,0 +1,54 @@
+2021-06-28 13:04:57.706480: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-06-28 13:05:02.860903: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-06-28 13:05:02.975712: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:88:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2021-06-28 13:05:02.977489: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 1 with properties: 
+pciBusID: 0000:89:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2021-06-28 13:05:02.977513: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-06-28 13:05:03.074164: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-06-28 13:05:03.119404: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-06-28 13:05:03.142452: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-06-28 13:05:03.233103: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-06-28 13:05:03.250212: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-06-28 13:05:03.403604: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-06-28 13:05:03.416487: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0, 1
+2021-06-28 13:05:03.417434: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-06-28 13:05:03.481836: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2100000000 Hz
+2021-06-28 13:05:03.482708: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5020440 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-06-28 13:05:03.482778: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-06-28 13:05:03.800579: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x50b41e0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2021-06-28 13:05:03.800621: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce RTX 2080 Ti, Compute Capability 7.5
+2021-06-28 13:05:03.800630: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (1): GeForce RTX 2080 Ti, Compute Capability 7.5
+2021-06-28 13:05:03.837211: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:88:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2021-06-28 13:05:03.840539: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 1 with properties: 
+pciBusID: 0000:89:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2021-06-28 13:05:03.840602: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-06-28 13:05:03.840643: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-06-28 13:05:03.840696: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-06-28 13:05:03.840724: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-06-28 13:05:03.840752: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-06-28 13:05:03.840778: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-06-28 13:05:03.840806: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-06-28 13:05:03.849596: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0, 1
+2021-06-28 13:05:03.849634: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-06-28 13:05:07.108210: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-06-28 13:05:07.108260: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      0 1 
+2021-06-28 13:05:07.108268: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 0:   N N 
+2021-06-28 13:05:07.108273: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 1:   N N 
+2021-06-28 13:05:07.113188: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10000 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:88:00.0, compute capability: 7.5)
+2021-06-28 13:05:07.222150: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10000 MB memory) -> physical GPU (device: 1, name: GeForce RTX 2080 Ti, pci bus id: 0000:89:00.0, compute capability: 7.5)
+WARNING:tensorflow:From /home/mohamadol/.local/lib/python3.6/site-packages/tensorflow/python/data/ops/multi_device_iterator_ops.py:601: get_next_as_optional (from tensorflow.python.data.ops.iterator_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Iterator.get_next_as_optional()` instead.
+WARNING:tensorflow:From /home/mohamadol/.local/lib/python3.6/site-packages/tensorflow/python/data/ops/multi_device_iterator_ops.py:601: get_next_as_optional (from tensorflow.python.data.ops.iterator_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Iterator.get_next_as_optional()` instead.
+2021-06-28 13:05:17.421998: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-06-28 13:05:19.159861: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+ 1/52 [..............................] - ETA: 0s - loss: 0.2456 - accuracy: 0.9688 3/52 [>.............................] - ETA: 1s - loss: 0.2556 - accuracy: 0.9531 5/52 [=>............................] - ETA: 1s - loss: 0.2801 - accuracy: 0.9448 7/52 [===>..........................] - ETA: 1s - loss: 0.2760 - accuracy: 0.9449 9/52 [====>.........................] - ETA: 1s - loss: 0.3081 - accuracy: 0.942711/52 [=====>........................] - ETA: 1s - loss: 0.3027 - accuracy: 0.947013/52 [======>.......................] - ETA: 0s - loss: 0.3015 - accuracy: 0.948316/52 [========>.....................] - ETA: 0s - loss: 0.2911 - accuracy: 0.950819/52 [=========>....................] - ETA: 0s - loss: 0.3105 - accuracy: 0.947422/52 [===========>..................] - ETA: 0s - loss: 0.3217 - accuracy: 0.946724/52 [============>.................] - ETA: 0s - loss: 0.3280 - accuracy: 0.946027/52 [==============>...............] - ETA: 0s - loss: 0.3328 - accuracy: 0.945630/52 [================>.............] - ETA: 0s - loss: 0.3418 - accuracy: 0.943932/52 [=================>............] - ETA: 0s - loss: 0.3420 - accuracy: 0.943835/52 [===================>..........] - ETA: 0s - loss: 0.3394 - accuracy: 0.943938/52 [====================>.........] - ETA: 0s - loss: 0.3427 - accuracy: 0.943041/52 [======================>.......] - ETA: 0s - loss: 0.3492 - accuracy: 0.942844/52 [========================>.....] - ETA: 0s - loss: 0.3481 - accuracy: 0.942947/52 [==========================>...] - ETA: 0s - loss: 0.3459 - accuracy: 0.943350/52 [===========================>..] - ETA: 0s - loss: 0.3394 - accuracy: 0.944352/52 [==============================] - 1s 25ms/step - loss: 0.3333 - accuracy: 0.9453
