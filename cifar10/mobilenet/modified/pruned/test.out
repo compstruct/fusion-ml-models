@@ -1,0 +1,354 @@
+2021-06-28 12:53:05.232127: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-06-28 12:53:10.406718: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-06-28 12:53:10.576330: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:88:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2021-06-28 12:53:10.585086: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 1 with properties: 
+pciBusID: 0000:89:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2021-06-28 12:53:10.585141: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-06-28 12:53:10.679593: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-06-28 12:53:10.710676: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-06-28 12:53:10.724934: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-06-28 12:53:10.808691: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-06-28 12:53:10.821430: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-06-28 12:53:10.964699: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-06-28 12:53:10.975417: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0, 1
+2021-06-28 12:53:10.975986: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-06-28 12:53:11.037880: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2100000000 Hz
+2021-06-28 12:53:11.038587: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4646c50 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-06-28 12:53:11.038624: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-06-28 12:53:11.358758: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x46dab40 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2021-06-28 12:53:11.358834: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce RTX 2080 Ti, Compute Capability 7.5
+2021-06-28 12:53:11.358854: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (1): GeForce RTX 2080 Ti, Compute Capability 7.5
+2021-06-28 12:53:11.393846: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:88:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2021-06-28 12:53:11.395441: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 1 with properties: 
+pciBusID: 0000:89:00.0 name: GeForce RTX 2080 Ti computeCapability: 7.5
+coreClock: 1.545GHz coreCount: 68 deviceMemorySize: 10.73GiB deviceMemoryBandwidth: 573.69GiB/s
+2021-06-28 12:53:11.395466: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-06-28 12:53:11.395483: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-06-28 12:53:11.395504: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-06-28 12:53:11.395513: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-06-28 12:53:11.395521: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-06-28 12:53:11.395529: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-06-28 12:53:11.395538: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-06-28 12:53:11.401952: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0, 1
+2021-06-28 12:53:11.401982: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-06-28 12:53:14.600344: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-06-28 12:53:14.600394: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      0 1 
+2021-06-28 12:53:14.600402: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 0:   N N 
+2021-06-28 12:53:14.600406: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 1:   N N 
+2021-06-28 12:53:14.605903: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11000 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 Ti, pci bus id: 0000:88:00.0, compute capability: 7.5)
+2021-06-28 12:53:14.608500: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 11000 MB memory) -> physical GPU (device: 1, name: GeForce RTX 2080 Ti, pci bus id: 0000:89:00.0, compute capability: 7.5)
+2021-06-28 12:53:16.520032: I tensorflow/stream_executor/cuda/cuda_driver.cc:775] failed to allocate 10.74G (11534336000 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+2021-06-28 12:53:16.701343: I tensorflow/stream_executor/cuda/cuda_driver.cc:775] failed to allocate 10.74G (11534336000 bytes) from device: CUDA_ERROR_OUT_OF_MEMORY: out of memory
+WARNING:tensorflow:No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+WARNING:tensorflow:No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+Model: "functional_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+input_1 (InputLayer)            [(None, 32, 32, 3)]  0                                            
+__________________________________________________________________________________________________
+conv2d (Conv2D)                 (None, 32, 32, 32)   864         input_1[0][0]                    
+__________________________________________________________________________________________________
+batch_normalization (BatchNorma (None, 32, 32, 32)   128         conv2d[0][0]                     
+__________________________________________________________________________________________________
+re_lu (ReLU)                    (None, 32, 32, 32)   0           batch_normalization[0][0]        
+__________________________________________________________________________________________________
+conv2d_1 (Conv2D)               (None, 32, 32, 32)   1024        re_lu[0][0]                      
+__________________________________________________________________________________________________
+batch_normalization_1 (BatchNor (None, 32, 32, 32)   128         conv2d_1[0][0]                   
+__________________________________________________________________________________________________
+re_lu_1 (ReLU)                  (None, 32, 32, 32)   0           batch_normalization_1[0][0]      
+__________________________________________________________________________________________________
+depthwise_conv2d (DepthwiseConv (None, 32, 32, 32)   288         re_lu_1[0][0]                    
+__________________________________________________________________________________________________
+batch_normalization_2 (BatchNor (None, 32, 32, 32)   128         depthwise_conv2d[0][0]           
+__________________________________________________________________________________________________
+re_lu_2 (ReLU)                  (None, 32, 32, 32)   0           batch_normalization_2[0][0]      
+__________________________________________________________________________________________________
+conv2d_2 (Conv2D)               (None, 32, 32, 16)   512         re_lu_2[0][0]                    
+__________________________________________________________________________________________________
+batch_normalization_3 (BatchNor (None, 32, 32, 16)   64          conv2d_2[0][0]                   
+__________________________________________________________________________________________________
+conv2d_3 (Conv2D)               (None, 32, 32, 864)  13824       batch_normalization_3[0][0]      
+__________________________________________________________________________________________________
+batch_normalization_4 (BatchNor (None, 32, 32, 864)  3456        conv2d_3[0][0]                   
+__________________________________________________________________________________________________
+re_lu_3 (ReLU)                  (None, 32, 32, 864)  0           batch_normalization_4[0][0]      
+__________________________________________________________________________________________________
+depthwise_conv2d_1 (DepthwiseCo (None, 32, 32, 864)  7776        re_lu_3[0][0]                    
+__________________________________________________________________________________________________
+batch_normalization_5 (BatchNor (None, 32, 32, 864)  3456        depthwise_conv2d_1[0][0]         
+__________________________________________________________________________________________________
+re_lu_4 (ReLU)                  (None, 32, 32, 864)  0           batch_normalization_5[0][0]      
+__________________________________________________________________________________________________
+conv2d_4 (Conv2D)               (None, 32, 32, 24)   20736       re_lu_4[0][0]                    
+__________________________________________________________________________________________________
+batch_normalization_6 (BatchNor (None, 32, 32, 24)   96          conv2d_4[0][0]                   
+__________________________________________________________________________________________________
+conv2d_5 (Conv2D)               (None, 32, 32, 864)  20736       batch_normalization_6[0][0]      
+__________________________________________________________________________________________________
+batch_normalization_7 (BatchNor (None, 32, 32, 864)  3456        conv2d_5[0][0]                   
+__________________________________________________________________________________________________
+re_lu_5 (ReLU)                  (None, 32, 32, 864)  0           batch_normalization_7[0][0]      
+__________________________________________________________________________________________________
+depthwise_conv2d_2 (DepthwiseCo (None, 32, 32, 864)  7776        re_lu_5[0][0]                    
+__________________________________________________________________________________________________
+batch_normalization_8 (BatchNor (None, 32, 32, 864)  3456        depthwise_conv2d_2[0][0]         
+__________________________________________________________________________________________________
+re_lu_6 (ReLU)                  (None, 32, 32, 864)  0           batch_normalization_8[0][0]      
+__________________________________________________________________________________________________
+conv2d_6 (Conv2D)               (None, 32, 32, 24)   20736       re_lu_6[0][0]                    
+__________________________________________________________________________________________________
+batch_normalization_9 (BatchNor (None, 32, 32, 24)   96          conv2d_6[0][0]                   
+__________________________________________________________________________________________________
+tf_op_layer_Add (TensorFlowOpLa (None, 32, 32, 24)   0           batch_normalization_9[0][0]      
+                                                                 batch_normalization_6[0][0]      
+__________________________________________________________________________________________________
+conv2d_7 (Conv2D)               (None, 32, 32, 864)  20736       tf_op_layer_Add[0][0]            
+__________________________________________________________________________________________________
+batch_normalization_10 (BatchNo (None, 32, 32, 864)  3456        conv2d_7[0][0]                   
+__________________________________________________________________________________________________
+re_lu_7 (ReLU)                  (None, 32, 32, 864)  0           batch_normalization_10[0][0]     
+__________________________________________________________________________________________________
+depthwise_conv2d_3 (DepthwiseCo (None, 32, 32, 864)  7776        re_lu_7[0][0]                    
+__________________________________________________________________________________________________
+batch_normalization_11 (BatchNo (None, 32, 32, 864)  3456        depthwise_conv2d_3[0][0]         
+__________________________________________________________________________________________________
+re_lu_8 (ReLU)                  (None, 32, 32, 864)  0           batch_normalization_11[0][0]     
+__________________________________________________________________________________________________
+conv2d_8 (Conv2D)               (None, 32, 32, 24)   20736       re_lu_8[0][0]                    
+__________________________________________________________________________________________________
+batch_normalization_12 (BatchNo (None, 32, 32, 24)   96          conv2d_8[0][0]                   
+__________________________________________________________________________________________________
+tf_op_layer_Add_1 (TensorFlowOp (None, 32, 32, 24)   0           batch_normalization_12[0][0]     
+                                                                 tf_op_layer_Add[0][0]            
+__________________________________________________________________________________________________
+conv2d_9 (Conv2D)               (None, 32, 32, 864)  20736       tf_op_layer_Add_1[0][0]          
+__________________________________________________________________________________________________
+batch_normalization_13 (BatchNo (None, 32, 32, 864)  3456        conv2d_9[0][0]                   
+__________________________________________________________________________________________________
+re_lu_9 (ReLU)                  (None, 32, 32, 864)  0           batch_normalization_13[0][0]     
+__________________________________________________________________________________________________
+depthwise_conv2d_4 (DepthwiseCo (None, 16, 16, 864)  7776        re_lu_9[0][0]                    
+__________________________________________________________________________________________________
+batch_normalization_14 (BatchNo (None, 16, 16, 864)  3456        depthwise_conv2d_4[0][0]         
+__________________________________________________________________________________________________
+re_lu_10 (ReLU)                 (None, 16, 16, 864)  0           batch_normalization_14[0][0]     
+__________________________________________________________________________________________________
+conv2d_10 (Conv2D)              (None, 16, 16, 32)   27648       re_lu_10[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_15 (BatchNo (None, 16, 16, 32)   128         conv2d_10[0][0]                  
+__________________________________________________________________________________________________
+conv2d_11 (Conv2D)              (None, 16, 16, 864)  27648       batch_normalization_15[0][0]     
+__________________________________________________________________________________________________
+batch_normalization_16 (BatchNo (None, 16, 16, 864)  3456        conv2d_11[0][0]                  
+__________________________________________________________________________________________________
+re_lu_11 (ReLU)                 (None, 16, 16, 864)  0           batch_normalization_16[0][0]     
+__________________________________________________________________________________________________
+depthwise_conv2d_5 (DepthwiseCo (None, 16, 16, 864)  7776        re_lu_11[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_17 (BatchNo (None, 16, 16, 864)  3456        depthwise_conv2d_5[0][0]         
+__________________________________________________________________________________________________
+re_lu_12 (ReLU)                 (None, 16, 16, 864)  0           batch_normalization_17[0][0]     
+__________________________________________________________________________________________________
+conv2d_12 (Conv2D)              (None, 16, 16, 32)   27648       re_lu_12[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_18 (BatchNo (None, 16, 16, 32)   128         conv2d_12[0][0]                  
+__________________________________________________________________________________________________
+tf_op_layer_Add_2 (TensorFlowOp (None, 16, 16, 32)   0           batch_normalization_18[0][0]     
+                                                                 batch_normalization_15[0][0]     
+__________________________________________________________________________________________________
+conv2d_13 (Conv2D)              (None, 16, 16, 864)  27648       tf_op_layer_Add_2[0][0]          
+__________________________________________________________________________________________________
+batch_normalization_19 (BatchNo (None, 16, 16, 864)  3456        conv2d_13[0][0]                  
+__________________________________________________________________________________________________
+re_lu_13 (ReLU)                 (None, 16, 16, 864)  0           batch_normalization_19[0][0]     
+__________________________________________________________________________________________________
+depthwise_conv2d_6 (DepthwiseCo (None, 16, 16, 864)  7776        re_lu_13[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_20 (BatchNo (None, 16, 16, 864)  3456        depthwise_conv2d_6[0][0]         
+__________________________________________________________________________________________________
+re_lu_14 (ReLU)                 (None, 16, 16, 864)  0           batch_normalization_20[0][0]     
+__________________________________________________________________________________________________
+conv2d_14 (Conv2D)              (None, 16, 16, 32)   27648       re_lu_14[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_21 (BatchNo (None, 16, 16, 32)   128         conv2d_14[0][0]                  
+__________________________________________________________________________________________________
+tf_op_layer_Add_3 (TensorFlowOp (None, 16, 16, 32)   0           batch_normalization_21[0][0]     
+                                                                 tf_op_layer_Add_2[0][0]          
+__________________________________________________________________________________________________
+conv2d_15 (Conv2D)              (None, 16, 16, 864)  27648       tf_op_layer_Add_3[0][0]          
+__________________________________________________________________________________________________
+batch_normalization_22 (BatchNo (None, 16, 16, 864)  3456        conv2d_15[0][0]                  
+__________________________________________________________________________________________________
+re_lu_15 (ReLU)                 (None, 16, 16, 864)  0           batch_normalization_22[0][0]     
+__________________________________________________________________________________________________
+depthwise_conv2d_7 (DepthwiseCo (None, 16, 16, 864)  7776        re_lu_15[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_23 (BatchNo (None, 16, 16, 864)  3456        depthwise_conv2d_7[0][0]         
+__________________________________________________________________________________________________
+re_lu_16 (ReLU)                 (None, 16, 16, 864)  0           batch_normalization_23[0][0]     
+__________________________________________________________________________________________________
+conv2d_16 (Conv2D)              (None, 16, 16, 32)   27648       re_lu_16[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_24 (BatchNo (None, 16, 16, 32)   128         conv2d_16[0][0]                  
+__________________________________________________________________________________________________
+tf_op_layer_Add_4 (TensorFlowOp (None, 16, 16, 32)   0           batch_normalization_24[0][0]     
+                                                                 tf_op_layer_Add_3[0][0]          
+__________________________________________________________________________________________________
+conv2d_17 (Conv2D)              (None, 16, 16, 864)  27648       tf_op_layer_Add_4[0][0]          
+__________________________________________________________________________________________________
+batch_normalization_25 (BatchNo (None, 16, 16, 864)  3456        conv2d_17[0][0]                  
+__________________________________________________________________________________________________
+re_lu_17 (ReLU)                 (None, 16, 16, 864)  0           batch_normalization_25[0][0]     
+__________________________________________________________________________________________________
+depthwise_conv2d_8 (DepthwiseCo (None, 8, 8, 864)    7776        re_lu_17[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_26 (BatchNo (None, 8, 8, 864)    3456        depthwise_conv2d_8[0][0]         
+__________________________________________________________________________________________________
+re_lu_18 (ReLU)                 (None, 8, 8, 864)    0           batch_normalization_26[0][0]     
+__________________________________________________________________________________________________
+conv2d_18 (Conv2D)              (None, 8, 8, 40)     34560       re_lu_18[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_27 (BatchNo (None, 8, 8, 40)     160         conv2d_18[0][0]                  
+__________________________________________________________________________________________________
+conv2d_19 (Conv2D)              (None, 8, 8, 864)    34560       batch_normalization_27[0][0]     
+__________________________________________________________________________________________________
+batch_normalization_28 (BatchNo (None, 8, 8, 864)    3456        conv2d_19[0][0]                  
+__________________________________________________________________________________________________
+re_lu_19 (ReLU)                 (None, 8, 8, 864)    0           batch_normalization_28[0][0]     
+__________________________________________________________________________________________________
+depthwise_conv2d_9 (DepthwiseCo (None, 8, 8, 864)    7776        re_lu_19[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_29 (BatchNo (None, 8, 8, 864)    3456        depthwise_conv2d_9[0][0]         
+__________________________________________________________________________________________________
+re_lu_20 (ReLU)                 (None, 8, 8, 864)    0           batch_normalization_29[0][0]     
+__________________________________________________________________________________________________
+conv2d_20 (Conv2D)              (None, 8, 8, 40)     34560       re_lu_20[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_30 (BatchNo (None, 8, 8, 40)     160         conv2d_20[0][0]                  
+__________________________________________________________________________________________________
+tf_op_layer_Add_5 (TensorFlowOp (None, 8, 8, 40)     0           batch_normalization_30[0][0]     
+                                                                 batch_normalization_27[0][0]     
+__________________________________________________________________________________________________
+conv2d_21 (Conv2D)              (None, 8, 8, 864)    34560       tf_op_layer_Add_5[0][0]          
+__________________________________________________________________________________________________
+batch_normalization_31 (BatchNo (None, 8, 8, 864)    3456        conv2d_21[0][0]                  
+__________________________________________________________________________________________________
+re_lu_21 (ReLU)                 (None, 8, 8, 864)    0           batch_normalization_31[0][0]     
+__________________________________________________________________________________________________
+depthwise_conv2d_10 (DepthwiseC (None, 8, 8, 864)    7776        re_lu_21[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_32 (BatchNo (None, 8, 8, 864)    3456        depthwise_conv2d_10[0][0]        
+__________________________________________________________________________________________________
+re_lu_22 (ReLU)                 (None, 8, 8, 864)    0           batch_normalization_32[0][0]     
+__________________________________________________________________________________________________
+conv2d_22 (Conv2D)              (None, 8, 8, 40)     34560       re_lu_22[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_33 (BatchNo (None, 8, 8, 40)     160         conv2d_22[0][0]                  
+__________________________________________________________________________________________________
+tf_op_layer_Add_6 (TensorFlowOp (None, 8, 8, 40)     0           batch_normalization_33[0][0]     
+                                                                 tf_op_layer_Add_5[0][0]          
+__________________________________________________________________________________________________
+conv2d_23 (Conv2D)              (None, 8, 8, 864)    34560       tf_op_layer_Add_6[0][0]          
+__________________________________________________________________________________________________
+batch_normalization_34 (BatchNo (None, 8, 8, 864)    3456        conv2d_23[0][0]                  
+__________________________________________________________________________________________________
+re_lu_23 (ReLU)                 (None, 8, 8, 864)    0           batch_normalization_34[0][0]     
+__________________________________________________________________________________________________
+depthwise_conv2d_11 (DepthwiseC (None, 8, 8, 864)    7776        re_lu_23[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_35 (BatchNo (None, 8, 8, 864)    3456        depthwise_conv2d_11[0][0]        
+__________________________________________________________________________________________________
+re_lu_24 (ReLU)                 (None, 8, 8, 864)    0           batch_normalization_35[0][0]     
+__________________________________________________________________________________________________
+conv2d_24 (Conv2D)              (None, 8, 8, 40)     34560       re_lu_24[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_36 (BatchNo (None, 8, 8, 40)     160         conv2d_24[0][0]                  
+__________________________________________________________________________________________________
+tf_op_layer_Add_7 (TensorFlowOp (None, 8, 8, 40)     0           batch_normalization_36[0][0]     
+                                                                 tf_op_layer_Add_6[0][0]          
+__________________________________________________________________________________________________
+conv2d_25 (Conv2D)              (None, 8, 8, 864)    34560       tf_op_layer_Add_7[0][0]          
+__________________________________________________________________________________________________
+batch_normalization_37 (BatchNo (None, 8, 8, 864)    3456        conv2d_25[0][0]                  
+__________________________________________________________________________________________________
+re_lu_25 (ReLU)                 (None, 8, 8, 864)    0           batch_normalization_37[0][0]     
+__________________________________________________________________________________________________
+depthwise_conv2d_12 (DepthwiseC (None, 8, 8, 864)    7776        re_lu_25[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_38 (BatchNo (None, 8, 8, 864)    3456        depthwise_conv2d_12[0][0]        
+__________________________________________________________________________________________________
+re_lu_26 (ReLU)                 (None, 8, 8, 864)    0           batch_normalization_38[0][0]     
+__________________________________________________________________________________________________
+conv2d_26 (Conv2D)              (None, 8, 8, 40)     34560       re_lu_26[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_39 (BatchNo (None, 8, 8, 40)     160         conv2d_26[0][0]                  
+__________________________________________________________________________________________________
+tf_op_layer_Add_8 (TensorFlowOp (None, 8, 8, 40)     0           batch_normalization_39[0][0]     
+                                                                 tf_op_layer_Add_7[0][0]          
+__________________________________________________________________________________________________
+conv2d_27 (Conv2D)              (None, 8, 8, 864)    34560       tf_op_layer_Add_8[0][0]          
+__________________________________________________________________________________________________
+batch_normalization_40 (BatchNo (None, 8, 8, 864)    3456        conv2d_27[0][0]                  WARNING:tensorflow:From /home/mohamadol/.local/lib/python3.6/site-packages/tensorflow/python/data/ops/multi_device_iterator_ops.py:601: get_next_as_optional (from tensorflow.python.data.ops.iterator_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Iterator.get_next_as_optional()` instead.
+WARNING:tensorflow:From /home/mohamadol/.local/lib/python3.6/site-packages/tensorflow/python/data/ops/multi_device_iterator_ops.py:601: get_next_as_optional (from tensorflow.python.data.ops.iterator_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Iterator.get_next_as_optional()` instead.
+2021-06-28 12:53:25.966626: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-06-28 12:53:27.962559: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+
+__________________________________________________________________________________________________
+re_lu_27 (ReLU)                 (None, 8, 8, 864)    0           batch_normalization_40[0][0]     
+__________________________________________________________________________________________________
+depthwise_conv2d_13 (DepthwiseC (None, 8, 8, 864)    7776        re_lu_27[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_41 (BatchNo (None, 8, 8, 864)    3456        depthwise_conv2d_13[0][0]        
+__________________________________________________________________________________________________
+re_lu_28 (ReLU)                 (None, 8, 8, 864)    0           batch_normalization_41[0][0]     
+__________________________________________________________________________________________________
+conv2d_28 (Conv2D)              (None, 8, 8, 40)     34560       re_lu_28[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_42 (BatchNo (None, 8, 8, 40)     160         conv2d_28[0][0]                  
+__________________________________________________________________________________________________
+tf_op_layer_Add_9 (TensorFlowOp (None, 8, 8, 40)     0           batch_normalization_42[0][0]     
+                                                                 tf_op_layer_Add_8[0][0]          
+__________________________________________________________________________________________________
+conv2d_29 (Conv2D)              (None, 8, 8, 864)    34560       tf_op_layer_Add_9[0][0]          
+__________________________________________________________________________________________________
+batch_normalization_43 (BatchNo (None, 8, 8, 864)    3456        conv2d_29[0][0]                  
+__________________________________________________________________________________________________
+re_lu_29 (ReLU)                 (None, 8, 8, 864)    0           batch_normalization_43[0][0]     
+__________________________________________________________________________________________________
+depthwise_conv2d_14 (DepthwiseC (None, 8, 8, 864)    7776        re_lu_29[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_44 (BatchNo (None, 8, 8, 864)    3456        depthwise_conv2d_14[0][0]        
+__________________________________________________________________________________________________
+re_lu_30 (ReLU)                 (None, 8, 8, 864)    0           batch_normalization_44[0][0]     
+__________________________________________________________________________________________________
+conv2d_30 (Conv2D)              (None, 8, 8, 80)     69120       re_lu_30[0][0]                   
+__________________________________________________________________________________________________
+batch_normalization_45 (BatchNo (None, 8, 8, 80)     320         conv2d_30[0][0]                  
+__________________________________________________________________________________________________
+conv2d_31 (Conv2D)              (None, 8, 8, 1280)   102400      batch_normalization_45[0][0]     
+__________________________________________________________________________________________________
+batch_normalization_46 (BatchNo (None, 8, 8, 1280)   5120        conv2d_31[0][0]                  
+__________________________________________________________________________________________________
+re_lu_31 (ReLU)                 (None, 8, 8, 1280)   0           batch_normalization_46[0][0]     
+__________________________________________________________________________________________________
+global_average_pooling2d (Globa (None, 1280)         0           re_lu_31[0][0]                   
+__________________________________________________________________________________________________
+dense (Dense)                   (None, 10)           12810       global_average_pooling2d[0][0]   
+==================================================================================================
+Total params: 1,174,442
+Trainable params: 1,122,234
+Non-trainable params: 52,208
+__________________________________________________________________________________________________
+ 1/78 [..............................] - ETA: 0s - loss: 0.5280 - accuracy: 0.9297 3/78 [>.............................] - ETA: 1s - loss: 0.3148 - accuracy: 0.9505 5/78 [>.............................] - ETA: 2s - loss: 0.4060 - accuracy: 0.9344 7/78 [=>............................] - ETA: 2s - loss: 0.3637 - accuracy: 0.9375 9/78 [==>...........................] - ETA: 2s - loss: 0.3616 - accuracy: 0.934011/78 [===>..........................] - ETA: 2s - loss: 0.3289 - accuracy: 0.938913/78 [====>.........................] - ETA: 1s - loss: 0.3510 - accuracy: 0.940515/78 [====>.........................] - ETA: 1s - loss: 0.3424 - accuracy: 0.941117/78 [=====>........................] - ETA: 1s - loss: 0.3313 - accuracy: 0.942619/78 [======>.......................] - ETA: 1s - loss: 0.3323 - accuracy: 0.942021/78 [=======>......................] - ETA: 1s - loss: 0.3227 - accuracy: 0.941623/78 [=======>......................] - ETA: 1s - loss: 0.3179 - accuracy: 0.942925/78 [========>.....................] - ETA: 1s - loss: 0.3172 - accuracy: 0.942527/78 [=========>....................] - ETA: 1s - loss: 0.3193 - accuracy: 0.940429/78 [==========>...................] - ETA: 1s - loss: 0.3226 - accuracy: 0.939931/78 [==========>...................] - ETA: 1s - loss: 0.3258 - accuracy: 0.940333/78 [===========>..................] - ETA: 1s - loss: 0.3224 - accuracy: 0.940635/78 [============>.................] - ETA: 1s - loss: 0.3244 - accuracy: 0.940637/78 [=============>................] - ETA: 1s - loss: 0.3296 - accuracy: 0.939239/78 [==============>...............] - ETA: 1s - loss: 0.3301 - accuracy: 0.938941/78 [==============>...............] - ETA: 1s - loss: 0.3260 - accuracy: 0.939243/78 [===============>..............] - ETA: 1s - loss: 0.3348 - accuracy: 0.938245/78 [================>.............] - ETA: 1s - loss: 0.3347 - accuracy: 0.938047/78 [=================>............] - ETA: 0s - loss: 0.3325 - accuracy: 0.937849/78 [=================>............] - ETA: 0s - loss: 0.3406 - accuracy: 0.936551/78 [==================>...........] - ETA: 0s - loss: 0.3393 - accuracy: 0.937353/78 [===================>..........] - ETA: 0s - loss: 0.3369 - accuracy: 0.938155/78 [====================>.........] - ETA: 0s - loss: 0.3398 - accuracy: 0.937957/78 [====================>.........] - ETA: 0s - loss: 0.3397 - accuracy: 0.937859/78 [=====================>........] - ETA: 0s - loss: 0.3369 - accuracy: 0.938361/78 [======================>.......] - ETA: 0s - loss: 0.3430 - accuracy: 0.937963/78 [=======================>......] - ETA: 0s - loss: 0.3472 - accuracy: 0.938265/78 [========================>.....] - ETA: 0s - loss: 0.3473 - accuracy: 0.938167/78 [========================>.....] - ETA: 0s - loss: 0.3421 - accuracy: 0.939169/78 [=========================>....] - ETA: 0s - loss: 0.3438 - accuracy: 0.939071/78 [==========================>...] - ETA: 0s - loss: 0.3441 - accuracy: 0.938573/78 [===========================>..] - ETA: 0s - loss: 0.3436 - accuracy: 0.938575/78 [===========================>..] - ETA: 0s - loss: 0.3410 - accuracy: 0.938977/78 [============================>.] - ETA: 0s - loss: 0.3350 - accuracy: 0.939878/78 [==============================] - 2s 31ms/step - loss: 0.3326 - accuracy: 0.9401
